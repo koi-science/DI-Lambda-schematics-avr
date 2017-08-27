@@ -1,4 +1,4 @@
-update=Sun 27 Aug 2017 05:16:13 PM CST
+update=Sun 27 Aug 2017 05:36:13 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -68,4 +68,4 @@ LibName25=opto
 LibName26=atmel
 LibName27=contrib
 LibName28=valves
-LibName29=tsl/tsl2561
+LibName29=/home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr-zz/libs/tsl2561
