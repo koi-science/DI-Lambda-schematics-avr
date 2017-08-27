@@ -124,7 +124,7 @@ U 1 1 59A86E68
 P 5200 1600
 F 0 "J1" V 5166 1259 50  0000 R CNN
 F 1 "Conn_01X06" V 5073 1259 50  0000 R CNN
-F 2 "Sprint-contact-connector-2:Contact-2.5x6" H 5200 1600 50  0001 C CNN
+F 2 "Spring-contact-connector-2:Contact-2.5x6" H 5200 1600 50  0001 C CNN
 F 3 "" H 5200 1600 50  0001 C CNN
 	1    5200 1600
 	0    -1   -1   0   

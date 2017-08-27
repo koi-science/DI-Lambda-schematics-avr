@@ -2593,7 +2593,7 @@
     )
   )
 
-  (module Sprint-contact-connector-2:Spring-contact-connector-2.5x6 (layer F.Cu) (tedit 599DA0F6) (tstamp 599C0238)
+  (module Spring-contact-connector-2:Spring-contact-connector-2.5x6 (layer F.Cu) (tedit 599DA0F6) (tstamp 599C0238)
     (at 150.355 51.57 180)
     (path /599C0AAE)
     (fp_text reference J16 (at 8 -3.9) (layer F.SilkS)
@@ -2629,7 +2629,7 @@
     (pad ~ smd rect (at 8.75 0.333 180) (size 2 2) (layers F.Cu F.Paste F.Mask))
   )
 
-  (module Sprint-contact-connector-2:Spring-contact-connector-2.5x6 (layer F.Cu) (tedit 599DA0F6) (tstamp 599C0210)
+  (module Spring-contact-connector-2:Spring-contact-connector-2.5x6 (layer F.Cu) (tedit 599DA0F6) (tstamp 599C0210)
     (at 150.355 153.57)
     (path /599C096B)
     (fp_text reference J15 (at -10.5 -0.25 90) (layer F.SilkS)

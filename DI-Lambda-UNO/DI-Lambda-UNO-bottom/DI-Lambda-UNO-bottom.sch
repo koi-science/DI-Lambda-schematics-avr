@@ -344,7 +344,7 @@ U 1 1 599C096B
 P 12600 5650
 F 0 "J15" V 12566 5309 50  0000 R CNN
 F 1 "CONN_01X06" V 12473 5309 50  0000 R CNN
-F 2 "Sprint-contact-connector-2:Spring-contact-connector-2.5x6" H 9250 2550 50  0001 C CNN
+F 2 "Spring-contact-connector-2:Spring-contact-connector-2.5x6" H 9250 2550 50  0001 C CNN
 F 3 "" H 9250 2550 50  0001 C CNN
 	1    12600 5650
 	0    -1   -1   0   
@@ -355,7 +355,7 @@ U 1 1 599C0AAE
 P 12650 8850
 F 0 "J16" V 12521 9181 50  0000 L CNN
 F 1 "CONN_01X06" V 12614 9181 50  0000 L CNN
-F 2 "Sprint-contact-connector-2:Spring-contact-connector-2.5x6" H 9300 5750 50  0001 C CNN
+F 2 "Spring-contact-connector-2:Spring-contact-connector-2.5x6" H 9300 5750 50  0001 C CNN
 F 3 "" H 9300 5750 50  0001 C CNN
 F 4 "-" H 12650 8850 60  0001 C CNN "Characteristics"
 F 5 "-" H 12650 8850 60  0001 C CNN "MFR"
