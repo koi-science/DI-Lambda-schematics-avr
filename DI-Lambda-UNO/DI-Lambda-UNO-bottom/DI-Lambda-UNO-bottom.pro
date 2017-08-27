@@ -1,4 +1,4 @@
-update=Fri 25 Aug 2017 07:01:26 PM CST
+update=Sun 27 Aug 2017 05:24:07 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -133,4 +133,4 @@ LibName91=/home/xl0/work/kicad/src/kicad-library/library/Xicor
 LibName92=/home/xl0/work/kicad/src/kicad-library/library/xilinx
 LibName93=/home/xl0/work/kicad/src/kicad-library/library/zetex
 LibName94=/home/xl0/work/kicad/src/kicad-library/library/Zilog
-LibName95=/home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics/libs/ap3032
+LibName95=/home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr-zz/libs/ap3032
