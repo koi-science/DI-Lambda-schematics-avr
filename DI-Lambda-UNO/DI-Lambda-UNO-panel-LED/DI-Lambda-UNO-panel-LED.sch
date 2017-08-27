@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DI-Lambda-UNO-panel-LED-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -107,14 +108,14 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01X06 J1
+L Conn_01x06 J1
 U 1 1 59A83F54
-P 5300 2400
-F 0 "J1" V 5266 2059 50  0000 R CNN
-F 1 "Conn_01X06" V 5173 2059 50  0000 R CNN
-F 2 "Sprint-contact-connector-2:Contact-2.5x6" H 5300 2400 50  0001 C CNN
-F 3 "" H 5300 2400 50  0001 C CNN
-	1    5300 2400
+P 5250 2400
+F 0 "J1" V 5216 2059 50  0000 R CNN
+F 1 "Conn_01X06" V 5123 2059 50  0000 R CNN
+F 2 "Spring-contact-connector-2:Contact-2.5x6" H 5250 2400 50  0001 C CNN
+F 3 "" H 5250 2400 50  0001 C CNN
+	1    5250 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -303,4 +304,8 @@ F 3 "" H 6200 5300 50  0001 C CNN
 $EndComp
 Text Label 6200 4450 1    60   ~ 0
 VCC
+Text Notes 4050 5200 0    60   ~ 0
+Either THT or SMD 0603 LED
+Text Notes 7850 5000 0    60   ~ 0
+Flash to store LED info\n(optional)
 $EndSCHEMATC

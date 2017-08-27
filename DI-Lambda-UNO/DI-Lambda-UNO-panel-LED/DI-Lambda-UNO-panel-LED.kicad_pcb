@@ -145,7 +145,7 @@
     )
   )
 
-  (module Sprint-contact-connector-2:Contact-2.5x6 (layer F.Cu) (tedit 599E2008) (tstamp 59DED56A)
+  (module Spring-contact-connector-2:Contact-2.5x6 (layer F.Cu) (tedit 599E2008) (tstamp 59DED56A)
     (at 160 90.7)
     (path /59A83F54)
     (fp_text reference J1 (at -9 -2.4) (layer F.SilkS) hide
