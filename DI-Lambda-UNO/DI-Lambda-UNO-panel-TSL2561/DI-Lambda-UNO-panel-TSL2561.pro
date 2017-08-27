@@ -1,4 +1,4 @@
-update=Thu 24 Aug 2017 06:38:00 AM CST
+update=Sun 27 Aug 2017 05:35:06 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -122,4 +122,4 @@ LibName90=/home/xl0/work/kicad/src/kicad-library/library/Xicor
 LibName91=/home/xl0/work/kicad/src/kicad-library/library/xilinx
 LibName92=/home/xl0/work/kicad/src/kicad-library/library/zetex
 LibName93=/home/xl0/work/kicad/src/kicad-library/library/Zilog
-LibName94=tsl2561
+LibName94=/home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr-zz/libs/tsl2561

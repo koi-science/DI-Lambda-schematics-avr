@@ -119,14 +119,14 @@ F 3 "" H 5250 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01X06 J1
+L Conn_01x06 J1
 U 1 1 59A86E68
-P 5200 1600
-F 0 "J1" V 5166 1259 50  0000 R CNN
-F 1 "Conn_01X06" V 5073 1259 50  0000 R CNN
-F 2 "Spring-contact-connector-2:Contact-2.5x6" H 5200 1600 50  0001 C CNN
-F 3 "" H 5200 1600 50  0001 C CNN
-	1    5200 1600
+P 5150 1600
+F 0 "J1" V 5116 1259 50  0000 R CNN
+F 1 "Conn_01X06" V 5023 1259 50  0000 R CNN
+F 2 "Spring-contact-connector-2:Contact-2.5x6" H 5150 1600 50  0001 C CNN
+F 3 "" H 5150 1600 50  0001 C CNN
+	1    5150 1600
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
