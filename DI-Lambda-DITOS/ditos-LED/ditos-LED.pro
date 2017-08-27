@@ -1,4 +1,4 @@
-update=Thu 08 Sep 2016 12:05:20 AM CST
+update=Sun 27 Aug 2017 05:12:51 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -37,24 +39,21 @@ LibName7=74xx
 LibName8=cmos4000
 LibName9=adc-dac
 LibName10=memory
-LibName11=xilinx
-LibName12=microcontrollers
-LibName13=dsp
-LibName14=microchip
-LibName15=analog_switches
-LibName16=motorola
-LibName17=texas
-LibName18=intel
-LibName19=audio
-LibName20=interface
-LibName21=digital-audio
-LibName22=philips
-LibName23=display
-LibName24=cypress
-LibName25=siliconi
-LibName26=opto
-LibName27=atmel
-LibName28=contrib
-LibName29=valves
-[general]
-version=1
+LibName11=microcontrollers
+LibName12=dsp
+LibName13=microchip
+LibName14=analog_switches
+LibName15=motorola
+LibName16=texas
+LibName17=intel
+LibName18=audio
+LibName19=interface
+LibName20=digital-audio
+LibName21=philips
+LibName22=display
+LibName23=cypress
+LibName24=siliconi
+LibName25=opto
+LibName26=atmel
+LibName27=contrib
+LibName28=valves
