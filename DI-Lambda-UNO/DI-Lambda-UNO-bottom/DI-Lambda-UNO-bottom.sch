@@ -1331,7 +1331,7 @@ U 1 1 599DBDFB
 P 5500 950
 F 0 "J17" H 5500 1271 50  0000 C CNN
 F 1 "CONN_02X03" H 5500 1178 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H -2700 -5400 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm_SMD" H -2700 -5400 50  0001 C CNN
 F 3 "" H -2700 -5400 50  0001 C CNN
 F 4 "-" H 5500 950 60  0001 C CNN "Characteristics"
 F 5 "-" H 5500 950 60  0001 C CNN "MFR"
