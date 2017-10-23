@@ -1724,7 +1724,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 3550 4300 3500
 Wire Wire Line
-	4300 3500 4450 3500
+	4050 3500 4450 3500
 Wire Wire Line
 	4300 3750 4300 3850
 Wire Wire Line
@@ -2035,4 +2035,7 @@ Connection ~ 1950 2800
 Connection ~ 1050 4550
 Wire Wire Line
 	1400 4550 1400 4650
+Connection ~ 4300 3500
+Text Label 4050 3500 0    60   ~ 0
+VCC
 $EndSCHEMATC
