@@ -94,6 +94,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:DI-Lambda-UNO-top-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -109,12 +110,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x04_Counter_Clockwise J4
+L Conn_02x05_Odd_Even J4
 U 1 1 599AF8BC
 P 2650 1800
 F 0 "J4" H 2650 2171 50  0000 C CNN
 F 1 "CONN_02X04" H 2650 2078 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H -1550 -1500 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H -1550 -1500 50  0001 C CNN
 F 3 "" H -1550 -1500 50  0001 C CNN
 F 4 "-" H 2650 1800 60  0001 C CNN "Characteristics"
 F 5 "-" H 2650 1800 60  0001 C CNN "MFR"
@@ -132,12 +133,12 @@ F 15 "-" H 2650 1800 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J1
+L Conn_02x05_Odd_Even J1
 U 1 1 599AF950
 P 3750 1750
 F 0 "J1" H 3750 2121 50  0000 C CNN
 F 1 "CONN_02X04" H 3750 2028 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H -450 -1550 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H -450 -1550 50  0001 C CNN
 F 3 "" H -450 -1550 50  0001 C CNN
 F 4 "-" H 3750 1750 60  0001 C CNN "Characteristics"
 F 5 "-" H 3750 1750 60  0001 C CNN "MFR"
@@ -155,12 +156,12 @@ F 15 "-" H 3750 1750 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J2
+L Conn_02x05_Odd_Even J2
 U 1 1 599AF9AC
 P 4700 1750
 F 0 "J2" H 4700 2121 50  0000 C CNN
 F 1 "CONN_02X04" H 4700 2028 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H 500 -1550 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 500 -1550 50  0001 C CNN
 F 3 "" H 500 -1550 50  0001 C CNN
 F 4 "-" H 4700 1750 60  0001 C CNN "Characteristics"
 F 5 "-" H 4700 1750 60  0001 C CNN "MFR"
@@ -178,12 +179,12 @@ F 15 "-" H 4700 1750 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J3
+L Conn_02x05_Odd_Even J3
 U 1 1 599AF9E4
 P 5750 1750
 F 0 "J3" H 5750 2121 50  0000 C CNN
 F 1 "CONN_02X04" H 5750 2028 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H 1550 -1550 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 1550 -1550 50  0001 C CNN
 F 3 "" H 1550 -1550 50  0001 C CNN
 F 4 "-" H 5750 1750 60  0001 C CNN "Characteristics"
 F 5 "-" H 5750 1750 60  0001 C CNN "MFR"
@@ -198,190 +199,6 @@ F 13 "-" H 5750 1750 60  0001 C CNN "SRC2N"
 F 14 "-" H 5750 1750 60  0001 C CNN "Note"
 F 15 "-" H 5750 1750 60  0001 C CNN "Used"
 	1    5750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J5
-U 1 1 599B03D1
-P 2600 2600
-F 0 "J5" H 2600 2971 50  0000 C CNN
-F 1 "CONN_02X04" H 2600 2878 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H -1600 -700 50  0001 C CNN
-F 3 "" H -1600 -700 50  0001 C CNN
-F 4 "-" H 2600 2600 60  0001 C CNN "Characteristics"
-F 5 "-" H 2600 2600 60  0001 C CNN "MFR"
-F 6 "-" H 2600 2600 60  0001 C CNN "MPN"
-F 7 "-" H 2600 2600 60  0001 C CNN "MFR2"
-F 8 "-" H 2600 2600 60  0001 C CNN "MPN2"
-F 9 "-" H 2600 2600 60  0001 C CNN "Package"
-F 10 "-" H 2600 2600 60  0001 C CNN "SRC"
-F 11 "-" H 2600 2600 60  0001 C CNN "SCRN"
-F 12 "-" H 2600 2600 60  0001 C CNN "SRC2"
-F 13 "-" H 2600 2600 60  0001 C CNN "SRC2N"
-F 14 "-" H 2600 2600 60  0001 C CNN "Note"
-F 15 "-" H 2600 2600 60  0001 C CNN "Used"
-	1    2600 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J7
-U 1 1 599B040D
-P 3700 2650
-F 0 "J7" H 3700 3021 50  0000 C CNN
-F 1 "CONN_02X04" H 3700 2928 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H -500 -650 50  0001 C CNN
-F 3 "" H -500 -650 50  0001 C CNN
-F 4 "-" H 3700 2650 60  0001 C CNN "Characteristics"
-F 5 "-" H 3700 2650 60  0001 C CNN "MFR"
-F 6 "-" H 3700 2650 60  0001 C CNN "MPN"
-F 7 "-" H 3700 2650 60  0001 C CNN "MFR2"
-F 8 "-" H 3700 2650 60  0001 C CNN "MPN2"
-F 9 "-" H 3700 2650 60  0001 C CNN "Package"
-F 10 "-" H 3700 2650 60  0001 C CNN "SRC"
-F 11 "-" H 3700 2650 60  0001 C CNN "SCRN"
-F 12 "-" H 3700 2650 60  0001 C CNN "SRC2"
-F 13 "-" H 3700 2650 60  0001 C CNN "SRC2N"
-F 14 "-" H 3700 2650 60  0001 C CNN "Note"
-F 15 "-" H 3700 2650 60  0001 C CNN "Used"
-	1    3700 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J6
-U 1 1 599B044B
-P 4750 2600
-F 0 "J6" H 4750 2971 50  0000 C CNN
-F 1 "CONN_02X04" H 4750 2878 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H 550 -700 50  0001 C CNN
-F 3 "" H 550 -700 50  0001 C CNN
-F 4 "-" H 4750 2600 60  0001 C CNN "Characteristics"
-F 5 "-" H 4750 2600 60  0001 C CNN "MFR"
-F 6 "-" H 4750 2600 60  0001 C CNN "MPN"
-F 7 "-" H 4750 2600 60  0001 C CNN "MFR2"
-F 8 "-" H 4750 2600 60  0001 C CNN "MPN2"
-F 9 "-" H 4750 2600 60  0001 C CNN "Package"
-F 10 "-" H 4750 2600 60  0001 C CNN "SRC"
-F 11 "-" H 4750 2600 60  0001 C CNN "SCRN"
-F 12 "-" H 4750 2600 60  0001 C CNN "SRC2"
-F 13 "-" H 4750 2600 60  0001 C CNN "SRC2N"
-F 14 "-" H 4750 2600 60  0001 C CNN "Note"
-F 15 "-" H 4750 2600 60  0001 C CNN "Used"
-	1    4750 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J8
-U 1 1 599B0487
-P 5800 2700
-F 0 "J8" H 5800 3071 50  0000 C CNN
-F 1 "CONN_02X04" H 5800 2978 50  0000 C CNN
-F 2 "Female_sockets_254_tht:Pin_Header_Straight_2x04_Pitch2.54mm" H 1600 -600 50  0001 C CNN
-F 3 "" H 1600 -600 50  0001 C CNN
-F 4 "-" H 5800 2700 60  0001 C CNN "Characteristics"
-F 5 "-" H 5800 2700 60  0001 C CNN "MFR"
-F 6 "-" H 5800 2700 60  0001 C CNN "MPN"
-F 7 "-" H 5800 2700 60  0001 C CNN "MFR2"
-F 8 "-" H 5800 2700 60  0001 C CNN "MPN2"
-F 9 "-" H 5800 2700 60  0001 C CNN "Package"
-F 10 "-" H 5800 2700 60  0001 C CNN "SRC"
-F 11 "-" H 5800 2700 60  0001 C CNN "SCRN"
-F 12 "-" H 5800 2700 60  0001 C CNN "SRC2"
-F 13 "-" H 5800 2700 60  0001 C CNN "SRC2N"
-F 14 "-" H 5800 2700 60  0001 C CNN "Note"
-F 15 "-" H 5800 2700 60  0001 C CNN "Used"
-	1    5800 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J9
-U 1 1 599B15D8
-P 2600 3800
-F 0 "J9" H 2600 4171 50  0000 C CNN
-F 1 "CONN_02X04" H 2600 4078 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H -1600 500 50  0001 C CNN
-F 3 "" H -1600 500 50  0001 C CNN
-F 4 "-" H 2600 3800 60  0001 C CNN "Characteristics"
-F 5 "-" H 2600 3800 60  0001 C CNN "MFR"
-F 6 "-" H 2600 3800 60  0001 C CNN "MPN"
-F 7 "-" H 2600 3800 60  0001 C CNN "MFR2"
-F 8 "-" H 2600 3800 60  0001 C CNN "MPN2"
-F 9 "-" H 2600 3800 60  0001 C CNN "Package"
-F 10 "-" H 2600 3800 60  0001 C CNN "SRC"
-F 11 "-" H 2600 3800 60  0001 C CNN "SCRN"
-F 12 "-" H 2600 3800 60  0001 C CNN "SRC2"
-F 13 "-" H 2600 3800 60  0001 C CNN "SRC2N"
-F 14 "-" H 2600 3800 60  0001 C CNN "Note"
-F 15 "-" H 2600 3800 60  0001 C CNN "Used"
-	1    2600 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J10
-U 1 1 599B1628
-P 3750 3800
-F 0 "J10" H 3750 4171 50  0000 C CNN
-F 1 "CONN_02X04" H 3750 4078 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H -450 500 50  0001 C CNN
-F 3 "" H -450 500 50  0001 C CNN
-F 4 "-" H 3750 3800 60  0001 C CNN "Characteristics"
-F 5 "-" H 3750 3800 60  0001 C CNN "MFR"
-F 6 "-" H 3750 3800 60  0001 C CNN "MPN"
-F 7 "-" H 3750 3800 60  0001 C CNN "MFR2"
-F 8 "-" H 3750 3800 60  0001 C CNN "MPN2"
-F 9 "-" H 3750 3800 60  0001 C CNN "Package"
-F 10 "-" H 3750 3800 60  0001 C CNN "SRC"
-F 11 "-" H 3750 3800 60  0001 C CNN "SCRN"
-F 12 "-" H 3750 3800 60  0001 C CNN "SRC2"
-F 13 "-" H 3750 3800 60  0001 C CNN "SRC2N"
-F 14 "-" H 3750 3800 60  0001 C CNN "Note"
-F 15 "-" H 3750 3800 60  0001 C CNN "Used"
-	1    3750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J11
-U 1 1 599B1662
-P 4750 3800
-F 0 "J11" H 4750 4171 50  0000 C CNN
-F 1 "CONN_02X04" H 4750 4078 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 550 500 50  0001 C CNN
-F 3 "" H 550 500 50  0001 C CNN
-F 4 "-" H 4750 3800 60  0001 C CNN "Characteristics"
-F 5 "-" H 4750 3800 60  0001 C CNN "MFR"
-F 6 "-" H 4750 3800 60  0001 C CNN "MPN"
-F 7 "-" H 4750 3800 60  0001 C CNN "MFR2"
-F 8 "-" H 4750 3800 60  0001 C CNN "MPN2"
-F 9 "-" H 4750 3800 60  0001 C CNN "Package"
-F 10 "-" H 4750 3800 60  0001 C CNN "SRC"
-F 11 "-" H 4750 3800 60  0001 C CNN "SCRN"
-F 12 "-" H 4750 3800 60  0001 C CNN "SRC2"
-F 13 "-" H 4750 3800 60  0001 C CNN "SRC2N"
-F 14 "-" H 4750 3800 60  0001 C CNN "Note"
-F 15 "-" H 4750 3800 60  0001 C CNN "Used"
-	1    4750 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J12
-U 1 1 599B16AE
-P 5850 3800
-F 0 "J12" H 5850 4171 50  0000 C CNN
-F 1 "CONN_02X04" H 5850 4078 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 1650 500 50  0001 C CNN
-F 3 "" H 1650 500 50  0001 C CNN
-F 4 "-" H 5850 3800 60  0001 C CNN "Characteristics"
-F 5 "-" H 5850 3800 60  0001 C CNN "MFR"
-F 6 "-" H 5850 3800 60  0001 C CNN "MPN"
-F 7 "-" H 5850 3800 60  0001 C CNN "MFR2"
-F 8 "-" H 5850 3800 60  0001 C CNN "MPN2"
-F 9 "-" H 5850 3800 60  0001 C CNN "Package"
-F 10 "-" H 5850 3800 60  0001 C CNN "SRC"
-F 11 "-" H 5850 3800 60  0001 C CNN "SCRN"
-F 12 "-" H 5850 3800 60  0001 C CNN "SRC2"
-F 13 "-" H 5850 3800 60  0001 C CNN "SRC2N"
-F 14 "-" H 5850 3800 60  0001 C CNN "Note"
-F 15 "-" H 5850 3800 60  0001 C CNN "Used"
-	1    5850 3800
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
