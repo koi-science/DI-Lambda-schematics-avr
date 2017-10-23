@@ -110,35 +110,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x04_Counter_Clockwise J1
-U 1 1 599BF609
-P 11750 5700
-F 0 "J1" H 11750 6071 50  0000 C CNN
-F 1 "CONN_02X04" H 11750 5978 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 7500 2350 50  0001 C CNN
-F 3 "" H 7500 2350 50  0001 C CNN
-F 4 "-" H 11750 5700 60  0001 C CNN "Characteristics"
-F 5 "-" H 11750 5700 60  0001 C CNN "MFR"
-F 6 "-" H 11750 5700 60  0001 C CNN "MPN"
-F 7 "-" H 11750 5700 60  0001 C CNN "MFR2"
-F 8 "-" H 11750 5700 60  0001 C CNN "MPN2"
-F 9 "-" H 11750 5700 60  0001 C CNN "Package"
-F 10 "-" H 11750 5700 60  0001 C CNN "SRC"
-F 11 "-" H 11750 5700 60  0001 C CNN "SCRN"
-F 12 "-" H 11750 5700 60  0001 C CNN "SRC2"
-F 13 "-" H 11750 5700 60  0001 C CNN "SRC2N"
-F 14 "-" H 11750 5700 60  0001 C CNN "Note"
-F 15 "-" H 11750 5700 60  0001 C CNN "Used"
-	1    11750 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J7
+L Conn_02x04_Odd_Even J7
 U 1 1 599BF715
 P 12250 7350
 F 0 "J7" H 12250 7721 50  0000 C CNN
 F 1 "CONN_02X04" H 12250 7628 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 8000 4000 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 8000 4000 50  0001 C CNN
 F 3 "" H 8000 4000 50  0001 C CNN
 F 4 "-" H 12250 7350 60  0001 C CNN "Characteristics"
 F 5 "-" H 12250 7350 60  0001 C CNN "MFR"
@@ -156,58 +133,12 @@ F 15 "-" H 12250 7350 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J13
-U 1 1 599BF7E3
-P 11750 9050
-F 0 "J13" H 11750 9421 50  0000 C CNN
-F 1 "CONN_02X04" H 11750 9328 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 7500 5700 50  0001 C CNN
-F 3 "" H 7500 5700 50  0001 C CNN
-F 4 "-" H 11750 9050 60  0001 C CNN "Characteristics"
-F 5 "-" H 11750 9050 60  0001 C CNN "MFR"
-F 6 "-" H 11750 9050 60  0001 C CNN "MPN"
-F 7 "-" H 11750 9050 60  0001 C CNN "MFR2"
-F 8 "-" H 11750 9050 60  0001 C CNN "MPN2"
-F 9 "-" H 11750 9050 60  0001 C CNN "Package"
-F 10 "-" H 11750 9050 60  0001 C CNN "SRC"
-F 11 "-" H 11750 9050 60  0001 C CNN "SCRN"
-F 12 "-" H 11750 9050 60  0001 C CNN "SRC2"
-F 13 "-" H 11750 9050 60  0001 C CNN "SRC2N"
-F 14 "-" H 11750 9050 60  0001 C CNN "Note"
-F 15 "-" H 11750 9050 60  0001 C CNN "Used"
-	1    11750 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J5
-U 1 1 599BF86D
-P 13450 5700
-F 0 "J5" H 13450 6071 50  0000 C CNN
-F 1 "CONN_02X04" H 13450 5978 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 9200 2350 50  0001 C CNN
-F 3 "" H 9200 2350 50  0001 C CNN
-F 4 "-" H 13450 5700 60  0001 C CNN "Characteristics"
-F 5 "-" H 13450 5700 60  0001 C CNN "MFR"
-F 6 "-" H 13450 5700 60  0001 C CNN "MPN"
-F 7 "-" H 13450 5700 60  0001 C CNN "MFR2"
-F 8 "-" H 13450 5700 60  0001 C CNN "MPN2"
-F 9 "-" H 13450 5700 60  0001 C CNN "Package"
-F 10 "-" H 13450 5700 60  0001 C CNN "SRC"
-F 11 "-" H 13450 5700 60  0001 C CNN "SCRN"
-F 12 "-" H 13450 5700 60  0001 C CNN "SRC2"
-F 13 "-" H 13450 5700 60  0001 C CNN "SRC2N"
-F 14 "-" H 13450 5700 60  0001 C CNN "Note"
-F 15 "-" H 13450 5700 60  0001 C CNN "Used"
-	1    13450 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J8
+L Conn_02x04_Odd_Even J8
 U 1 1 599BF8B3
 P 12900 7350
 F 0 "J8" H 12900 7721 50  0000 C CNN
 F 1 "CONN_02X04" H 12900 7628 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 8650 4000 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 8650 4000 50  0001 C CNN
 F 3 "" H 8650 4000 50  0001 C CNN
 F 4 "-" H 12900 7350 60  0001 C CNN "Characteristics"
 F 5 "-" H 12900 7350 60  0001 C CNN "MFR"
@@ -225,35 +156,12 @@ F 15 "-" H 12900 7350 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J9
-U 1 1 599BF8ED
-P 13550 9050
-F 0 "J9" H 13550 9421 50  0000 C CNN
-F 1 "CONN_02X04" H 13550 9328 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 9300 5700 50  0001 C CNN
-F 3 "" H 9300 5700 50  0001 C CNN
-F 4 "-" H 13550 9050 60  0001 C CNN "Characteristics"
-F 5 "-" H 13550 9050 60  0001 C CNN "MFR"
-F 6 "-" H 13550 9050 60  0001 C CNN "MPN"
-F 7 "-" H 13550 9050 60  0001 C CNN "MFR2"
-F 8 "-" H 13550 9050 60  0001 C CNN "MPN2"
-F 9 "-" H 13550 9050 60  0001 C CNN "Package"
-F 10 "-" H 13550 9050 60  0001 C CNN "SRC"
-F 11 "-" H 13550 9050 60  0001 C CNN "SCRN"
-F 12 "-" H 13550 9050 60  0001 C CNN "SRC2"
-F 13 "-" H 13550 9050 60  0001 C CNN "SRC2N"
-F 14 "-" H 13550 9050 60  0001 C CNN "Note"
-F 15 "-" H 13550 9050 60  0001 C CNN "Used"
-	1    13550 9050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x04_Counter_Clockwise J3
+L Conn_02x05_Odd_Even J3
 U 1 1 599BFA57
 P 11800 6350
 F 0 "J3" H 11800 6721 50  0000 C CNN
-F 1 "CONN_02X04" H 11800 6628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 7550 3000 50  0001 C CNN
+F 1 "CONN_02X05" H 11800 6628 50  0000 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 7550 3000 50  0001 C CNN
 F 3 "" H 7550 3000 50  0001 C CNN
 F 4 "-" H 11800 6350 60  0001 C CNN "Characteristics"
 F 5 "-" H 11800 6350 60  0001 C CNN "MFR"
@@ -271,12 +179,12 @@ F 15 "-" H 11800 6350 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J11
+L Conn_02x05_Odd_Even J11
 U 1 1 599C02A9
 P 11750 8300
 F 0 "J11" H 11750 8671 50  0000 C CNN
-F 1 "CONN_02X04" H 11750 8578 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 7500 4950 50  0001 C CNN
+F 1 "CONN_02X05" H 11750 8578 50  0000 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 7500 4950 50  0001 C CNN
 F 3 "" H 7500 4950 50  0001 C CNN
 F 4 "-" H 11750 8300 60  0001 C CNN "Characteristics"
 F 5 "-" H 11750 8300 60  0001 C CNN "MFR"
@@ -294,12 +202,12 @@ F 15 "-" H 11750 8300 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J10
+L Conn_02x05_Odd_Even J10
 U 1 1 599C030D
 P 13550 8350
 F 0 "J10" H 13550 8721 50  0000 C CNN
-F 1 "CONN_02X04" H 13550 8628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 9300 5000 50  0001 C CNN
+F 1 "CONN_02X05" H 13550 8628 50  0000 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 9300 5000 50  0001 C CNN
 F 3 "" H 9300 5000 50  0001 C CNN
 F 4 "-" H 13550 8350 60  0001 C CNN "Characteristics"
 F 5 "-" H 13550 8350 60  0001 C CNN "MFR"
@@ -317,12 +225,12 @@ F 15 "-" H 13550 8350 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_02x04_Counter_Clockwise J6
+L Conn_02x05_Odd_Even J6
 U 1 1 599C0379
 P 13450 6350
 F 0 "J6" H 13450 6721 50  0000 C CNN
-F 1 "CONN_02X04" H 13450 6628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD" H 9200 3000 50  0001 C CNN
+F 1 "CONN_02X05" H 13450 6628 50  0000 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT" H 9200 3000 50  0001 C CNN
 F 3 "" H 9200 3000 50  0001 C CNN
 F 4 "-" H 13450 6350 60  0001 C CNN "Characteristics"
 F 5 "-" H 13450 6350 60  0001 C CNN "MFR"
@@ -1543,14 +1451,6 @@ NoConn ~ 6700 2600
 NoConn ~ 6700 2500
 NoConn ~ 6700 2300
 NoConn ~ 4450 4300
-NoConn ~ 11550 5600
-NoConn ~ 11550 5700
-NoConn ~ 11550 5800
-NoConn ~ 11550 5900
-NoConn ~ 12050 5900
-NoConn ~ 12050 5800
-NoConn ~ 12050 5700
-NoConn ~ 12050 5600
 NoConn ~ 11600 6250
 NoConn ~ 11600 6350
 NoConn ~ 11600 6450
@@ -1559,14 +1459,6 @@ NoConn ~ 12100 6550
 NoConn ~ 12100 6450
 NoConn ~ 12100 6350
 NoConn ~ 12100 6250
-NoConn ~ 13250 5600
-NoConn ~ 13250 5700
-NoConn ~ 13250 5800
-NoConn ~ 13250 5900
-NoConn ~ 13750 5900
-NoConn ~ 13750 5800
-NoConn ~ 13750 5700
-NoConn ~ 13750 5600
 NoConn ~ 13250 6250
 NoConn ~ 13250 6350
 NoConn ~ 13250 6450
@@ -1599,22 +1491,6 @@ NoConn ~ 12050 8200
 NoConn ~ 12050 8300
 NoConn ~ 12050 8400
 NoConn ~ 12050 8500
-NoConn ~ 11550 8950
-NoConn ~ 11550 9050
-NoConn ~ 11550 9150
-NoConn ~ 11550 9250
-NoConn ~ 12050 9250
-NoConn ~ 12050 9150
-NoConn ~ 12050 9050
-NoConn ~ 12050 8950
-NoConn ~ 13350 8950
-NoConn ~ 13350 9050
-NoConn ~ 13350 9150
-NoConn ~ 13350 9250
-NoConn ~ 13850 9250
-NoConn ~ 13850 9150
-NoConn ~ 13850 9050
-NoConn ~ 13850 8950
 NoConn ~ 13350 8550
 NoConn ~ 13350 8450
 NoConn ~ 13350 8350
@@ -2038,4 +1914,12 @@ Wire Wire Line
 Connection ~ 4300 3500
 Text Label 4050 3500 0    60   ~ 0
 VCC
+NoConn ~ 11550 8100
+NoConn ~ 12050 8100
+NoConn ~ 13350 8150
+NoConn ~ 13850 8150
+NoConn ~ 11600 6150
+NoConn ~ 12100 6150
+NoConn ~ 13250 6150
+NoConn ~ 13750 6150
 $EndSCHEMATC
