@@ -94,6 +94,7 @@ LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
 LIBS:ap3032
+LIBS:DI-Lambda-UNO-bottom-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -959,9 +960,9 @@ F 3 "" H 10400 2250 50  0001 C CNN
 	1    12400 6350
 	-1   0    0    -1  
 $EndComp
-Text Label 12600 6300 1    60   ~ 0
-SDA
 Text Label 12500 6300 1    60   ~ 0
+SDA
+Text Label 12600 6300 1    60   ~ 0
 SCL
 $Comp
 L R_Small R5
