@@ -298,7 +298,7 @@ U 1 1 599DBDBE
 P 1050 3500
 F 0 "J18" H 1107 3970 50  0000 C CNN
 F 1 "USB_OTG" H 1107 3877 50  0000 C CNN
-F 2 "Connectors:USB_Mini-B" H -600 550 50  0001 C CNN
+F 2 "Connectors_USB:USB_Micro-B_Wuerth-629105150521" H -600 550 50  0001 C CNN
 F 3 "" H -600 550 50  0001 C CNN
 	1    1050 3500
 	1    0    0    -1  
@@ -1507,7 +1507,7 @@ U 1 1 59A6FC7C
 P 7300 3300
 F 0 "J2" H 7350 3300 50  0000 L CNN
 F 1 "Conn_01X01" H 7200 3200 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7300 3300 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7300 3300 50  0001 C CNN
 F 3 "" H 7300 3300 50  0001 C CNN
 F 4 "-" H 7300 3300 60  0001 C CNN "Characteristics"
 F 5 "-" H 7300 3300 60  0001 C CNN "MFR"
@@ -1530,7 +1530,7 @@ U 1 1 59A70936
 P 7100 3400
 F 0 "J4" H 7050 3300 50  0000 L CNN
 F 1 "Conn_01X01" H 6950 3200 50  0001 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch2.54mm" H 7100 3400 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7100 3400 50  0001 C CNN
 F 3 "" H 7100 3400 50  0001 C CNN
 F 4 "-" H 7100 3400 60  0001 C CNN "Characteristics"
 F 5 "-" H 7100 3400 60  0001 C CNN "MFR"
