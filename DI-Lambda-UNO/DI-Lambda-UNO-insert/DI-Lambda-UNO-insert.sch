@@ -93,6 +93,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
+LIBS:DI-Lambda-UNO-insert-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -153,4 +154,72 @@ F 15 "-" H 5200 2300 60  0001 C CNN "Used"
 	1    5200 2300
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR?
+U 1 1 59F078C1
+P 3850 2850
+F 0 "#PWR?" H 3850 2600 50  0001 C CNN
+F 1 "GND" H 3855 2673 50  0000 C CNN
+F 2 "" H 3850 2850 50  0001 C CNN
+F 3 "" H 3850 2850 50  0001 C CNN
+	1    3850 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2200 3850 2200
+Wire Wire Line
+	3850 2200 3850 2850
+Wire Wire Line
+	3950 2300 3850 2300
+Connection ~ 3850 2300
+Wire Wire Line
+	3950 2400 3850 2400
+Connection ~ 3850 2400
+Wire Wire Line
+	3950 2500 3850 2500
+Connection ~ 3850 2500
+Wire Wire Line
+	4450 2200 4600 2200
+Wire Wire Line
+	4600 2200 4600 2700
+Wire Wire Line
+	3850 2700 5650 2700
+Connection ~ 3850 2700
+Wire Wire Line
+	5000 2200 4900 2200
+Wire Wire Line
+	4900 2200 4900 2700
+Connection ~ 4600 2700
+Wire Wire Line
+	5500 2200 5650 2200
+Wire Wire Line
+	5650 2200 5650 2700
+Connection ~ 4900 2700
+Wire Wire Line
+	4450 2300 4600 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	4450 2400 4600 2400
+Connection ~ 4600 2400
+Wire Wire Line
+	4450 2500 4600 2500
+Connection ~ 4600 2500
+Wire Wire Line
+	5000 2300 4900 2300
+Connection ~ 4900 2300
+Wire Wire Line
+	5000 2400 4900 2400
+Connection ~ 4900 2400
+Wire Wire Line
+	5000 2500 4900 2500
+Connection ~ 4900 2500
+Wire Wire Line
+	5500 2500 5650 2500
+Connection ~ 5650 2500
+Wire Wire Line
+	5500 2400 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5500 2300 5650 2300
+Connection ~ 5650 2300
 $EndSCHEMATC
