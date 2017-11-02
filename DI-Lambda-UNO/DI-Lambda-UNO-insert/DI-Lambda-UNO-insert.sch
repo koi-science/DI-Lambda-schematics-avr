@@ -114,7 +114,7 @@ U 1 1 599B2666
 P 4150 2300
 F 0 "J1" H 4150 2671 50  0000 C CNN
 F 1 "CONN_02X04" H 4150 2578 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 300 -1000 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_centered" H 300 -1000 50  0001 C CNN
 F 3 "" H 300 -1000 50  0001 C CNN
 F 4 "-" H 4150 2300 60  0001 C CNN "Characteristics"
 F 5 "-" H 4150 2300 60  0001 C CNN "MFR"
@@ -137,7 +137,7 @@ U 1 1 599B2696
 P 5200 2300
 F 0 "J2" H 5200 2671 50  0000 C CNN
 F 1 "CONN_02X04" H 5200 2578 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 1350 -1000 50  0001 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_centered" H 1350 -1000 50  0001 C CNN
 F 3 "" H 1350 -1000 50  0001 C CNN
 F 4 "-" H 5200 2300 60  0001 C CNN "Characteristics"
 F 5 "-" H 5200 2300 60  0001 C CNN "MFR"
@@ -155,10 +155,10 @@ F 15 "-" H 5200 2300 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR01
 U 1 1 59F078C1
 P 3850 2850
-F 0 "#PWR?" H 3850 2600 50  0001 C CNN
+F 0 "#PWR01" H 3850 2600 50  0001 C CNN
 F 1 "GND" H 3855 2673 50  0000 C CNN
 F 2 "" H 3850 2850 50  0001 C CNN
 F 3 "" H 3850 2850 50  0001 C CNN
