@@ -1,0 +1,427 @@
+EESchema Schematic File Version 2
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos4000
+LIBS:cmos_ieee
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:powerint
+LIBS:Power_Management
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:tp1271
+LIBS:DI-Lambda-UNO-panel-Photodiode-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x06 J1
+U 1 1 59A86E68
+P 8250 1550
+F 0 "J1" V 8216 1209 50  0000 R CNN
+F 1 "Conn_01X06" V 8123 1209 50  0000 R CNN
+F 2 "Spring-contact-connector-2:Contact-2.5x6" H 8250 1550 50  0001 C CNN
+F 3 "" H 8250 1550 50  0001 C CNN
+	1    8250 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8050 1750 8050 2200
+Wire Wire Line
+	8150 1750 8150 2200
+Wire Wire Line
+	8250 1750 8250 2200
+Wire Wire Line
+	8350 1750 8350 2200
+NoConn ~ 8450 1750
+NoConn ~ 8550 1750
+$Comp
+L GND #PWR01
+U 1 1 59A86FF7
+P 8050 2200
+F 0 "#PWR01" H 8050 1950 50  0001 C CNN
+F 1 "GND" H 8055 2023 50  0000 C CNN
+F 2 "" H 8050 2200 50  0001 C CNN
+F 3 "" H 8050 2200 50  0001 C CNN
+	1    8050 2200
+	1    0    0    -1  
+$EndComp
+Text Label 8150 2200 1    60   ~ 0
+SDA
+Text Label 8250 2200 1    60   ~ 0
+SCL
+Text Label 8350 2200 1    60   ~ 0
+VCC
+$Comp
+L C_Small C1
+U 1 1 59A87334
+P 9050 3600
+F 0 "C1" H 9142 3647 50  0000 L CNN
+F 1 "0.1uF 25v" H 9142 3554 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 9050 3600 50  0001 C CNN
+F 3 "" H 9050 3600 50  0001 C CNN
+F 4 "-" H 9050 3600 60  0001 C CNN "Characteristics"
+F 5 "-" H 9050 3600 60  0001 C CNN "MFR"
+F 6 "-" H 9050 3600 60  0001 C CNN "MPN"
+F 7 "-" H 9050 3600 60  0001 C CNN "MFR2"
+F 8 "-" H 9050 3600 60  0001 C CNN "MPN2"
+F 9 "-" H 9050 3600 60  0001 C CNN "Package"
+F 10 "-" H 9050 3600 60  0001 C CNN "SRC"
+F 11 "-" H 9050 3600 60  0001 C CNN "SCRN"
+F 12 "-" H 9050 3600 60  0001 C CNN "SRC2"
+F 13 "-" H 9050 3600 60  0001 C CNN "SRC2N"
+F 14 "-" H 9050 3600 60  0001 C CNN "Note"
+F 15 "-" H 9050 3600 60  0001 C CNN "Used"
+	1    9050 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3500 9050 3300
+Wire Wire Line
+	9050 3700 9050 3950
+$Comp
+L GND #PWR03
+U 1 1 59A875F2
+P 9050 3950
+F 0 "#PWR03" H 9050 3700 50  0001 C CNN
+F 1 "GND" H 9055 3773 50  0000 C CNN
+F 2 "" H 9050 3950 50  0001 C CNN
+F 3 "" H 9050 3950 50  0001 C CNN
+	1    9050 3950
+	1    0    0    -1  
+$EndComp
+Text Label 9050 3300 3    60   ~ 0
+VCC
+$Comp
+L MCP3421A0T-E/CH U2
+U 1 1 5A1B0D56
+P 7500 3700
+F 0 "U2" H 7050 3350 50  0000 C CNN
+F 1 "MCP3421A0T-E/CH" H 7100 3250 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6" H 7500 3700 50  0001 C CIN
+F 3 "" H 7500 3700 50  0001 C CNN
+	1    7500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L D_Photo D1
+U 1 1 5A1B324B
+P 4300 3900
+F 0 "D1" V 4203 4061 50  0000 L CNN
+F 1 "D_Photo" V 4296 4061 50  0000 L CNN
+F 2 "2-SMD-Everlight-Photodiode:2-SMD-Everlight-Photodiode" H 4250 3900 50  0001 C CNN
+F 3 "" H 4250 3900 50  0001 C CNN
+F 4 "-" H 4300 3900 60  0001 C CNN "Characteristics"
+F 5 "Everlight" H 4300 3900 60  0001 C CNN "MFR"
+F 6 "PD70-01C/TR7" H 4300 3900 60  0001 C CNN "MPN"
+F 7 "-" H 4300 3900 60  0001 C CNN "MFR2"
+F 8 "-" H 4300 3900 60  0001 C CNN "MPN2"
+F 9 "-" H 4300 3900 60  0001 C CNN "Package"
+F 10 "-" H 4300 3900 60  0001 C CNN "SRC"
+F 11 "-" H 4300 3900 60  0001 C CNN "SCRN"
+F 12 "-" H 4300 3900 60  0001 C CNN "SRC2"
+F 13 "-" H 4300 3900 60  0001 C CNN "SRC2N"
+F 14 "Possible: PD70-01C/TR10 , ODD-900-002, TEMD5080X01, " H 4300 3900 60  0001 C CNN "Note"
+F 15 "-" H 4300 3900 60  0001 C CNN "Used"
+	1    4300 3900
+	0    -1   1    0   
+$EndComp
+$Comp
+L TP1271 U1
+U 1 1 5A1B3CB0
+P 4950 3600
+F 0 "U1" H 5400 3300 60  0000 L CNN
+F 1 "TP1271" H 5350 3200 60  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3750 2500 60  0001 C CNN
+F 3 "" H 3750 2500 60  0001 C CNN
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3700 4550 3700
+Wire Wire Line
+	4550 3700 4550 4100
+Wire Wire Line
+	4300 4100 5100 4100
+Wire Wire Line
+	5100 4100 5100 4050
+Wire Wire Line
+	4300 4000 4300 4250
+Connection ~ 4550 4100
+Wire Wire Line
+	4300 2450 4300 3700
+Wire Wire Line
+	4300 3500 4650 3500
+Wire Wire Line
+	5100 3150 5100 3100
+Text Label 5100 3100 0    60   ~ 0
+VCC
+Wire Wire Line
+	5700 3600 7000 3600
+$Comp
+L R_Small R1
+U 1 1 5A1B424F
+P 5050 2800
+F 0 "R1" V 4851 2800 50  0000 C CNN
+F 1 "1M" V 4944 2800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" H 5050 2800 50  0001 C CNN
+F 3 "" H 5050 2800 50  0001 C CNN
+F 4 "-" H 5050 2800 60  0001 C CNN "Characteristics"
+F 5 "-" H 5050 2800 60  0001 C CNN "MFR"
+F 6 "-" H 5050 2800 60  0001 C CNN "MPN"
+F 7 "-" H 5050 2800 60  0001 C CNN "MFR2"
+F 8 "-" H 5050 2800 60  0001 C CNN "MPN2"
+F 9 "-" H 5050 2800 60  0001 C CNN "Package"
+F 10 "-" H 5050 2800 60  0001 C CNN "SRC"
+F 11 "-" H 5050 2800 60  0001 C CNN "SCRN"
+F 12 "-" H 5050 2800 60  0001 C CNN "SRC2"
+F 13 "-" H 5050 2800 60  0001 C CNN "SRC2N"
+F 14 "-" H 5050 2800 60  0001 C CNN "Note"
+F 15 "-" H 5050 2800 60  0001 C CNN "Used"
+	1    5050 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2450 5850 3600
+Wire Wire Line
+	5850 2800 5150 2800
+Connection ~ 5850 3600
+Wire Wire Line
+	4950 2800 4300 2800
+Connection ~ 4300 3500
+$Comp
+L C_Small C2
+U 1 1 5A1B47F0
+P 5050 2450
+F 0 "C2" V 4818 2450 50  0000 C CNN
+F 1 "10pf" V 4911 2450 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5050 2450 50  0001 C CNN
+F 3 "" H 5050 2450 50  0001 C CNN
+F 4 "-" H 5050 2450 60  0001 C CNN "Characteristics"
+F 5 "-" H 5050 2450 60  0001 C CNN "MFR"
+F 6 "-" H 5050 2450 60  0001 C CNN "MPN"
+F 7 "-" H 5050 2450 60  0001 C CNN "MFR2"
+F 8 "-" H 5050 2450 60  0001 C CNN "MPN2"
+F 9 "-" H 5050 2450 60  0001 C CNN "Package"
+F 10 "-" H 5050 2450 60  0001 C CNN "SRC"
+F 11 "-" H 5050 2450 60  0001 C CNN "SCRN"
+F 12 "-" H 5050 2450 60  0001 C CNN "SRC2"
+F 13 "-" H 5050 2450 60  0001 C CNN "SRC2N"
+F 14 "-" H 5050 2450 60  0001 C CNN "Note"
+F 15 "-" H 5050 2450 60  0001 C CNN "Used"
+	1    5050 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2450 5150 2450
+Connection ~ 5850 2800
+Wire Wire Line
+	4950 2450 4300 2450
+Connection ~ 4300 2800
+$Comp
+L GND #PWR02
+U 1 1 5A1B4D44
+P 4300 4250
+F 0 "#PWR02" H 4300 4000 50  0001 C CNN
+F 1 "GND" H 4305 4073 50  0000 C CNN
+F 2 "" H 4300 4250 50  0001 C CNN
+F 3 "" H 4300 4250 50  0001 C CNN
+	1    4300 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 4100
+Wire Wire Line
+	7000 3800 6700 3800
+Wire Wire Line
+	6700 3800 6700 4300
+Wire Wire Line
+	6700 4300 7500 4300
+Wire Wire Line
+	7500 4100 7500 4400
+$Comp
+L GND #PWR04
+U 1 1 5A1B5078
+P 7500 4400
+F 0 "#PWR04" H 7500 4150 50  0001 C CNN
+F 1 "GND" H 7505 4223 50  0000 C CNN
+F 2 "" H 7500 4400 50  0001 C CNN
+F 3 "" H 7500 4400 50  0001 C CNN
+	1    7500 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 7500 4300
+Wire Wire Line
+	7500 3300 7500 3100
+Text Label 7500 3100 0    60   ~ 0
+VCC
+Wire Wire Line
+	8000 3600 8400 3600
+Wire Wire Line
+	8000 3700 8400 3700
+Text Label 8400 3700 2    60   ~ 0
+SDA
+$Comp
+L C_Small C3
+U 1 1 5A1B5D5F
+P 3250 3450
+F 0 "C3" H 3342 3497 50  0000 L CNN
+F 1 "0.1uF 25v" H 3342 3404 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3250 3450 50  0001 C CNN
+F 3 "" H 3250 3450 50  0001 C CNN
+F 4 "-" H 3250 3450 60  0001 C CNN "Characteristics"
+F 5 "-" H 3250 3450 60  0001 C CNN "MFR"
+F 6 "-" H 3250 3450 60  0001 C CNN "MPN"
+F 7 "-" H 3250 3450 60  0001 C CNN "MFR2"
+F 8 "-" H 3250 3450 60  0001 C CNN "MPN2"
+F 9 "-" H 3250 3450 60  0001 C CNN "Package"
+F 10 "-" H 3250 3450 60  0001 C CNN "SRC"
+F 11 "-" H 3250 3450 60  0001 C CNN "SCRN"
+F 12 "-" H 3250 3450 60  0001 C CNN "SRC2"
+F 13 "-" H 3250 3450 60  0001 C CNN "SRC2N"
+F 14 "-" H 3250 3450 60  0001 C CNN "Note"
+F 15 "-" H 3250 3450 60  0001 C CNN "Used"
+	1    3250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 3350 3250 3150
+Wire Wire Line
+	3250 3550 3250 3800
+$Comp
+L GND #PWR05
+U 1 1 5A1B5D67
+P 3250 3800
+F 0 "#PWR05" H 3250 3550 50  0001 C CNN
+F 1 "GND" H 3255 3623 50  0000 C CNN
+F 2 "" H 3250 3800 50  0001 C CNN
+F 3 "" H 3250 3800 50  0001 C CNN
+	1    3250 3800
+	1    0    0    -1  
+$EndComp
+Text Label 3250 3150 3    60   ~ 0
+VCC
+Text Label 8400 3600 2    60   ~ 0
+SCL
+$Comp
+L PWR_FLAG #FLG01
+U 1 1 5A1B8ABA
+P 7900 1900
+F 0 "#FLG01" H 7900 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 7900 2031 50  0000 L CNN
+F 2 "" H 7900 1900 50  0001 C CNN
+F 3 "" H 7900 1900 50  0001 C CNN
+	1    7900 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7900 1900 8050 1900
+Connection ~ 8050 1900
+$Comp
+L PWR_FLAG #FLG02
+U 1 1 5A1B8CD3
+P 8450 1900
+F 0 "#FLG02" H 8450 1975 50  0001 C CNN
+F 1 "PWR_FLAG" V 8450 2031 50  0000 L CNN
+F 2 "" H 8450 1900 50  0001 C CNN
+F 3 "" H 8450 1900 50  0001 C CNN
+	1    8450 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8450 1900 8350 1900
+Connection ~ 8350 1900
+$EndSCHEMATC

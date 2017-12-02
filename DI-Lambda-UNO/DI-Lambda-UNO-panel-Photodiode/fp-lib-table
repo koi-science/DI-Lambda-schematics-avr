@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Spring-contact-connector-2)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/Spring-contact-connector-2.pretty)(options "")(descr ""))
+  (lib (name 2-SMD-Everlight-Photodiode)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/2-SMD-Everlight-Photodiode)(options "")(descr ""))
+)
