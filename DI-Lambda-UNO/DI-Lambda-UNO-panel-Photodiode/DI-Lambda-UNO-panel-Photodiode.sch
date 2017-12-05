@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:DI-Lambda-UNO-panel-Photodiode-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -221,7 +222,7 @@ F 15 "-" H 4300 3900 60  0001 C CNN "Used"
 	0    -1   1    0   
 $EndComp
 $Comp
-L TP1271 U1
+L TP1271-RESCUE-DI-Lambda-UNO-panel-Photodiode U1
 U 1 1 5A1B3CB0
 P 4950 3600
 F 0 "U1" H 5400 3300 60  0000 L CNN
