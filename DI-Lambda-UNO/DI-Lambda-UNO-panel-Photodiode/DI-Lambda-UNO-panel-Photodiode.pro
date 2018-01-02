@@ -1,4 +1,4 @@
-update=Mon 04 Dec 2017 08:14:43 PM CST
+update=Fri 15 Dec 2017 10:01:16 AM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -124,3 +124,13 @@ LibName92=/home/xl0/work/kicad/src/kicad-library/library/xilinx
 LibName93=/home/xl0/work/kicad/src/kicad-library/library/zetex
 LibName94=/home/xl0/work/kicad/src/kicad-library/library/Zilog
 LibName95=/home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/tp1271
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
