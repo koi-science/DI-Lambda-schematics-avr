@@ -1,91 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LEM
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
+EESchema Schematic File Version 4
 LIBS:DI-Lambda-UNO-side-cache
 EELAYER 26 0
 EELAYER END
@@ -102,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_02X02 P1
+L conn:CONN_02X02 P1
 U 1 1 5A2D1373
 P 4150 3200
 F 0 "P1" H 4150 3471 50  0000 C CNN
@@ -113,7 +26,7 @@ F 3 "" H 4150 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power1:GND #PWR01
 U 1 1 5A2D1526
 P 3700 3500
 F 0 "#PWR01" H 3700 3250 50  0001 C CNN
@@ -126,18 +39,147 @@ $EndComp
 Wire Wire Line
 	3900 3150 3700 3150
 Wire Wire Line
-	3700 3150 3700 3500
+	3700 3150 3700 3250
 Wire Wire Line
 	3900 3250 3700 3250
 Connection ~ 3700 3250
 Wire Wire Line
 	4400 3250 4500 3250
 Wire Wire Line
-	4500 3150 4500 3400
+	4500 3150 4500 3250
 Wire Wire Line
 	4500 3400 3700 3400
 Connection ~ 3700 3400
 Wire Wire Line
 	4400 3150 4500 3150
 Connection ~ 4500 3250
+Wire Wire Line
+	3700 3250 3700 3400
+Wire Wire Line
+	3700 3400 3700 3500
+Wire Wire Line
+	4500 3250 4500 3400
+$Comp
+L conn:CONN_01X04 P2
+U 1 1 5A72F2C0
+P 3800 4900
+F 0 "P2" V 3671 5131 50  0000 L CNN
+F 1 "CONN_01X04" V 3764 5131 50  0000 L CNN
+F 2 "Board_grooves:Tab_10mm_4pads_vias_3mm" H 3800 4900 50  0001 C CNN
+F 3 "" H 3800 4900 50  0000 C CNN
+	1    3800 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3650 4700 3650 4550
+Wire Wire Line
+	3650 4550 3750 4550
+Wire Wire Line
+	3950 4700 3950 4550
+Connection ~ 3950 4550
+Wire Wire Line
+	3950 4550 4050 4550
+Wire Wire Line
+	3850 4700 3850 4550
+Connection ~ 3850 4550
+Wire Wire Line
+	3850 4550 3950 4550
+Wire Wire Line
+	3750 4700 3750 4550
+Connection ~ 3750 4550
+Wire Wire Line
+	3750 4550 3850 4550
+$Comp
+L power1:GND #PWR02
+U 1 1 5A72F8EC
+P 4050 4550
+F 0 "#PWR02" H 4050 4300 50  0001 C CNN
+F 1 "GND" H 4055 4373 50  0000 C CNN
+F 2 "" H 4050 4550 50  0001 C CNN
+F 3 "" H 4050 4550 50  0001 C CNN
+	1    4050 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L conn:CONN_01X04 P3
+U 1 1 5A72FB91
+P 4900 4900
+F 0 "P3" V 4771 5131 50  0000 L CNN
+F 1 "CONN_01X04" V 4864 5131 50  0000 L CNN
+F 2 "Board_grooves:Tab_10mm_4pads_vias_3mm" H 4900 4900 50  0001 C CNN
+F 3 "" H 4900 4900 50  0000 C CNN
+	1    4900 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 4700 4750 4550
+Wire Wire Line
+	4750 4550 4850 4550
+Wire Wire Line
+	5050 4700 5050 4550
+Connection ~ 5050 4550
+Wire Wire Line
+	5050 4550 5150 4550
+Wire Wire Line
+	4950 4700 4950 4550
+Connection ~ 4950 4550
+Wire Wire Line
+	4950 4550 5050 4550
+Wire Wire Line
+	4850 4700 4850 4550
+Connection ~ 4850 4550
+Wire Wire Line
+	4850 4550 4950 4550
+$Comp
+L power1:GND #PWR03
+U 1 1 5A72FBA3
+P 5150 4550
+F 0 "#PWR03" H 5150 4300 50  0001 C CNN
+F 1 "GND" H 5155 4373 50  0000 C CNN
+F 2 "" H 5150 4550 50  0001 C CNN
+F 3 "" H 5150 4550 50  0001 C CNN
+	1    5150 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L conn:CONN_01X04 P4
+U 1 1 5A72FE2B
+P 5950 4900
+F 0 "P4" V 5821 5131 50  0000 L CNN
+F 1 "CONN_01X04" V 5914 5131 50  0000 L CNN
+F 2 "Board_grooves:Tab_10mm_4pads_vias_3mm" H 5950 4900 50  0001 C CNN
+F 3 "" H 5950 4900 50  0000 C CNN
+	1    5950 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 4700 5800 4550
+Wire Wire Line
+	5800 4550 5900 4550
+Wire Wire Line
+	6100 4700 6100 4550
+Connection ~ 6100 4550
+Wire Wire Line
+	6100 4550 6200 4550
+Wire Wire Line
+	6000 4700 6000 4550
+Connection ~ 6000 4550
+Wire Wire Line
+	6000 4550 6100 4550
+Wire Wire Line
+	5900 4700 5900 4550
+Connection ~ 5900 4550
+Wire Wire Line
+	5900 4550 6000 4550
+$Comp
+L power1:GND #PWR04
+U 1 1 5A72FE3D
+P 6200 4550
+F 0 "#PWR04" H 6200 4300 50  0001 C CNN
+F 1 "GND" H 6205 4373 50  0000 C CNN
+F 2 "" H 6200 4550 50  0001 C CNN
+F 3 "" H 6200 4550 50  0001 C CNN
+	1    6200 4550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

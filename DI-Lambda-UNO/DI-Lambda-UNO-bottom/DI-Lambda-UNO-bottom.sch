@@ -1,93 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:DI-Lambda-UNO-bottom-rescue
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LEM
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:ap3032
+EESchema Schematic File Version 4
 LIBS:DI-Lambda-UNO-bottom-cache
 EELAYER 26 0
 EELAYER END
@@ -104,76 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_02x05_Odd_Even J11
-U 1 1 599C02A9
-P 11500 8350
-F 0 "J11" H 11500 8721 50  0000 C CNN
-F 1 "CONN_02X05" H 11500 8628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT_wide" H 7250 5000 50  0001 C CNN
-F 3 "" H 7250 5000 50  0001 C CNN
-F 4 "-" H 11500 8350 60  0001 C CNN "Characteristics"
-F 5 "-" H 11500 8350 60  0001 C CNN "MFR"
-F 6 "-" H 11500 8350 60  0001 C CNN "MPN"
-F 7 "-" H 11500 8350 60  0001 C CNN "MFR2"
-F 8 "-" H 11500 8350 60  0001 C CNN "MPN2"
-F 9 "-" H 11500 8350 60  0001 C CNN "Package"
-F 10 "-" H 11500 8350 60  0001 C CNN "SRC"
-F 11 "-" H 11500 8350 60  0001 C CNN "SCRN"
-F 12 "-" H 11500 8350 60  0001 C CNN "SRC2"
-F 13 "-" H 11500 8350 60  0001 C CNN "SRC2N"
-F 14 "-" H 11500 8350 60  0001 C CNN "Note"
-F 15 "-" H 11500 8350 60  0001 C CNN "Used"
-	1    11500 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x05_Odd_Even J10
-U 1 1 599C030D
-P 13550 8350
-F 0 "J10" H 13550 8721 50  0000 C CNN
-F 1 "CONN_02X05" H 13550 8628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT_wide" H 9300 5000 50  0001 C CNN
-F 3 "" H 9300 5000 50  0001 C CNN
-F 4 "-" H 13550 8350 60  0001 C CNN "Characteristics"
-F 5 "-" H 13550 8350 60  0001 C CNN "MFR"
-F 6 "-" H 13550 8350 60  0001 C CNN "MPN"
-F 7 "-" H 13550 8350 60  0001 C CNN "MFR2"
-F 8 "-" H 13550 8350 60  0001 C CNN "MPN2"
-F 9 "-" H 13550 8350 60  0001 C CNN "Package"
-F 10 "-" H 13550 8350 60  0001 C CNN "SRC"
-F 11 "-" H 13550 8350 60  0001 C CNN "SCRN"
-F 12 "-" H 13550 8350 60  0001 C CNN "SRC2"
-F 13 "-" H 13550 8350 60  0001 C CNN "SRC2N"
-F 14 "-" H 13550 8350 60  0001 C CNN "Note"
-F 15 "-" H 13550 8350 60  0001 C CNN "Used"
-	1    13550 8350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_02x05_Odd_Even J6
-U 1 1 599C0379
-P 13450 6350
-F 0 "J6" H 13450 6721 50  0000 C CNN
-F 1 "CONN_02X05" H 13450 6628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT_wide" H 9200 3000 50  0001 C CNN
-F 3 "" H 9200 3000 50  0001 C CNN
-F 4 "-" H 13450 6350 60  0001 C CNN "Characteristics"
-F 5 "-" H 13450 6350 60  0001 C CNN "MFR"
-F 6 "-" H 13450 6350 60  0001 C CNN "MPN"
-F 7 "-" H 13450 6350 60  0001 C CNN "MFR2"
-F 8 "-" H 13450 6350 60  0001 C CNN "MPN2"
-F 9 "-" H 13450 6350 60  0001 C CNN "Package"
-F 10 "-" H 13450 6350 60  0001 C CNN "SRC"
-F 11 "-" H 13450 6350 60  0001 C CNN "SCRN"
-F 12 "-" H 13450 6350 60  0001 C CNN "SRC2"
-F 13 "-" H 13450 6350 60  0001 C CNN "SRC2N"
-F 14 "-" H 13450 6350 60  0001 C CNN "Note"
-F 15 "-" H 13450 6350 60  0001 C CNN "Used"
-	1    13450 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Conn_01x06 J15
+L DI-Lambda-UNO-bottom-rescue:Conn_01x06-RESCUE-DI-Lambda-UNO-bottom J15
 U 1 1 599C096B
 P 12600 5650
 F 0 "J15" V 12566 5309 50  0000 R CNN
@@ -185,7 +27,7 @@ F 4 "BC-6P-2.5PH-6.4H" H 0   0   60  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Conn_01x06 J16
+L DI-Lambda-UNO-bottom-rescue:Conn_01x06-RESCUE-DI-Lambda-UNO-bottom J16
 U 1 1 599C0AAE
 P 12650 8850
 F 0 "J16" V 12521 9181 50  0000 L CNN
@@ -208,7 +50,7 @@ F 15 "-" H 12650 8850 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L ATMEGA32U4-MU U3
+L DI-Lambda-UNO-bottom-rescue:ATMEGA32U4-MU-RESCUE-DI-Lambda-UNO-bottom U3
 U 1 1 599DBDBD
 P 5600 3450
 F 0 "U3" H 4650 5300 50  0000 C CNN
@@ -219,7 +61,7 @@ F 3 "" H 2750 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG-RESCUE-DI-Lambda-UNO-bottom J18
+L DI-Lambda-UNO-bottom-rescue:USB_OTG-RESCUE-DI-Lambda-UNO-bottom J18
 U 1 1 599DBDBE
 P 1050 3500
 F 0 "J18" H 1107 3970 50  0000 C CNN
@@ -230,12 +72,12 @@ F 3 "" H -600 550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead_Small L2
+L DI-Lambda-UNO-bottom-rescue:Ferrite_Bead_Small-RESCUE-DI-Lambda-UNO-bottom L2
 U 1 1 599DBDBF
 P 950 4150
 F 0 "L2" H 1053 4197 50  0000 L CNN
 F 1 "FB" H 1053 4104 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V -1520 1500 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V -1520 1500 50  0001 C CNN
 F 3 "" H -1450 1500 50  0001 C CNN
 F 4 "-" H 950 4150 60  0001 C CNN "Characteristics"
 F 5 "-" H 950 4150 60  0001 C CNN "MFR"
@@ -253,12 +95,12 @@ F 15 "-" H 950 4150 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead_Small L3
+L DI-Lambda-UNO-bottom-rescue:Ferrite_Bead_Small-RESCUE-DI-Lambda-UNO-bottom L3
 U 1 1 599DBDC0
 P 1050 4350
 F 0 "L3" H 1153 4397 50  0000 L CNN
 F 1 "FB" H 1153 4304 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" V -1420 1700 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V -1420 1700 50  0001 C CNN
 F 3 "" H -1350 1700 50  0001 C CNN
 F 4 "-" H 1050 4350 60  0001 C CNN "Characteristics"
 F 5 "-" H 1050 4350 60  0001 C CNN "MFR"
@@ -276,12 +118,12 @@ F 15 "-" H 1050 4350 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Ferrite_Bead_Small L1
+L DI-Lambda-UNO-bottom-rescue:Ferrite_Bead_Small-RESCUE-DI-Lambda-UNO-bottom L1
 U 1 1 599DBDC1
 P 1500 3300
 F 0 "L1" V 1257 3300 50  0000 C CNN
 F 1 "FB" V 1350 3300 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" V -970 650 50  0001 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" V -970 650 50  0001 C CNN
 F 3 "" H -900 650 50  0001 C CNN
 F 4 "-" H 1500 3300 60  0001 C CNN "Characteristics"
 F 5 "-" H 1500 3300 60  0001 C CNN "MFR"
@@ -299,12 +141,12 @@ F 15 "-" H 1500 3300 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R10
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R10
 U 1 1 599DBDC2
 P 2000 3600
 F 0 "R10" V 2100 3450 50  0000 C CNN
 F 1 "22R" V 2100 3650 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H -450 750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -450 750 50  0001 C CNN
 F 3 "" H -450 750 50  0001 C CNN
 F 4 "-" H 2000 3600 60  0001 C CNN "Characteristics"
 F 5 "-" H 2000 3600 60  0001 C CNN "MFR"
@@ -322,12 +164,12 @@ F 15 "-" H 2000 3600 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R11
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R11
 U 1 1 599DBDC3
 P 1800 3500
 F 0 "R11" V 1700 3400 50  0000 C CNN
 F 1 "22R" V 1700 3600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H -650 650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -650 650 50  0001 C CNN
 F 3 "" H -650 650 50  0001 C CNN
 F 4 "-" H 1800 3500 60  0001 C CNN "Characteristics"
 F 5 "-" H 1800 3500 60  0001 C CNN "MFR"
@@ -346,7 +188,7 @@ F 15 "-" H 1800 3500 60  0001 C CNN "Used"
 $EndComp
 NoConn ~ 1350 3700
 $Comp
-L USBLC6-2SC6 U2
+L DI-Lambda-UNO-bottom-rescue:USBLC6-2SC6-RESCUE-DI-Lambda-UNO-bottom U2
 U 1 1 599DBDC4
 P 2950 3450
 F 0 "U2" H 2950 3920 50  0000 C CNN
@@ -357,7 +199,7 @@ F 3 "" H -300 500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR01
 U 1 1 599DBDC5
 P 950 4650
 F 0 "#PWR01" H -1050 300 50  0001 C CNN
@@ -372,12 +214,12 @@ VBUS
 Text Label 4450 2850 2    60   ~ 0
 VBUS
 $Comp
-L C_Small C5
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C5
 U 1 1 599DBDC6
 P 4300 3650
 F 0 "C5" H 3950 3550 50  0000 L CNN
 F 1 "1uF 25V" H 3900 3450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 150 850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 150 850 50  0001 C CNN
 F 3 "" H 150 850 50  0001 C CNN
 F 4 "-" H 4300 3650 60  0001 C CNN "Characteristics"
 F 5 "-" H 4300 3650 60  0001 C CNN "MFR"
@@ -395,7 +237,7 @@ F 15 "-" H 4300 3650 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR02
 U 1 1 599DBDC7
 P 4300 3850
 F 0 "#PWR02" H 2300 -500 50  0001 C CNN
@@ -406,7 +248,7 @@ F 3 "" H 2300 -250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L DI-Lambda-UNO-bottom-rescue:Crystal-RESCUE-DI-Lambda-UNO-bottom Y1
 U 1 1 599DBDC8
 P 3900 2400
 F 0 "Y1" V 3853 2531 50  0000 L CNN
@@ -429,12 +271,12 @@ F 15 "-" H 3900 2400 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C2
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C2
 U 1 1 599DBDC9
 P 3500 2200
 F 0 "C2" V 3350 1850 50  0000 C CNN
 F 1 "22pF 25V" V 3350 2200 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 100 -250 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 100 -250 50  0001 C CNN
 F 3 "" H 100 -250 50  0001 C CNN
 F 4 "-" H 3500 2200 60  0001 C CNN "Characteristics"
 F 5 "-" H 3500 2200 60  0001 C CNN "MFR"
@@ -452,12 +294,12 @@ F 15 "-" H 3500 2200 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L C_Small C3
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C3
 U 1 1 599DBDCA
 P 3500 2600
 F 0 "C3" V 3350 2350 50  0000 C CNN
 F 1 "22pF 25V" V 3350 2650 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 100 150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 100 150 50  0001 C CNN
 F 3 "" H 100 150 50  0001 C CNN
 F 4 "-" H 3500 2600 60  0001 C CNN "Characteristics"
 F 5 "-" H 3500 2600 60  0001 C CNN "MFR"
@@ -475,7 +317,7 @@ F 15 "-" H 3500 2600 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR03
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR03
 U 1 1 599DBDCB
 P 3150 2650
 F 0 "#PWR03" H 1150 -1700 50  0001 C CNN
@@ -486,7 +328,7 @@ F 3 "" H 1150 -1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR04
 U 1 1 599DBDCC
 P 5950 5300
 F 0 "#PWR04" H 3950 950 50  0001 C CNN
@@ -499,12 +341,12 @@ $EndComp
 Text Notes 1400 2450 0    60   ~ 0
 TODO: Check exact capacitor values
 $Comp
-L C_Small C4
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C4
 U 1 1 599DBDCD
 P 3950 2850
 F 0 "C4" V 3718 2850 50  0000 C CNN
 F 1 "4.7uF 25V" V 3811 2850 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H 1650 100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 100 50  0001 C CNN
 F 3 "" H 1650 100 50  0001 C CNN
 F 4 "-" H 3950 2850 60  0001 C CNN "Characteristics"
 F 5 "-" H 3950 2850 60  0001 C CNN "MFR"
@@ -522,7 +364,7 @@ F 15 "-" H 3950 2850 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR05
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR05
 U 1 1 599DBDCE
 P 3850 2850
 F 0 "#PWR05" H 1850 -1500 50  0001 C CNN
@@ -535,12 +377,12 @@ $EndComp
 Text Label 6400 1400 2    60   ~ 0
 VCC
 $Comp
-L C_Small C1
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C1
 U 1 1 599DBDCF
 P 3850 1800
 F 0 "C1" H 4100 1750 50  0000 R CNN
 F 1 "0.1uF" H 4150 1850 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 1550 -950 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1550 -950 50  0001 C CNN
 F 3 "" H 1550 -950 50  0001 C CNN
 F 4 "-" H 3850 1800 60  0001 C CNN "Characteristics"
 F 5 "-" H 3850 1800 60  0001 C CNN "MFR"
@@ -558,7 +400,7 @@ F 15 "-" H 3850 1800 60  0001 C CNN "Used"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR06
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR06
 U 1 1 599DBDD0
 P 3850 1950
 F 0 "#PWR06" H 1850 -2400 50  0001 C CNN
@@ -571,12 +413,12 @@ $EndComp
 Text Label 3850 1000 2    60   ~ 0
 VCC
 $Comp
-L C_Small C11
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C11
 U 1 1 599DBDD1
 P 6000 5900
 F 0 "C11" H 6092 5947 50  0000 L CNN
 F 1 "0.1uF 25v" H 6092 5854 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 450 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 450 5150 50  0001 C CNN
 F 3 "" H 450 5150 50  0001 C CNN
 F 4 "-" H 6000 5900 60  0001 C CNN "Characteristics"
 F 5 "-" H 6000 5900 60  0001 C CNN "MFR"
@@ -594,7 +436,7 @@ F 15 "-" H 6000 5900 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Polyfuse_Small F1
+L DI-Lambda-UNO-bottom-rescue:Polyfuse_Small-RESCUE-DI-Lambda-UNO-bottom F1
 U 1 1 599DBDD2
 P 1800 3300
 F 0 "F1" V 1589 3300 50  0000 C CNN
@@ -618,7 +460,7 @@ F 15 "-" H 1800 3300 60  0001 C CNN "Used"
 $EndComp
 NoConn ~ 5150 1650
 $Comp
-L GND #PWR07
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR07
 U 1 1 599DBDD3
 P 6150 6100
 F 0 "#PWR07" H 4150 1750 50  0001 C CNN
@@ -629,12 +471,12 @@ F 3 "" H 4150 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C10
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C10
 U 1 1 599DBDD4
 P 5550 5900
 F 0 "C10" H 5550 5650 50  0000 L CNN
 F 1 "0.1uF 25v" H 5550 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 0   5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 0   5150 50  0001 C CNN
 F 3 "" H 0   5150 50  0001 C CNN
 F 4 "-" H 5550 5900 60  0001 C CNN "Characteristics"
 F 5 "-" H 5550 5900 60  0001 C CNN "MFR"
@@ -652,12 +494,12 @@ F 15 "-" H 5550 5900 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C9
 U 1 1 599DBDD5
 P 5100 5900
 F 0 "C9" H 5050 5650 50  0000 L CNN
 F 1 "0.1uF 25v" H 5050 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -450 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -450 5150 50  0001 C CNN
 F 3 "" H -450 5150 50  0001 C CNN
 F 4 "-" H 5100 5900 60  0001 C CNN "Characteristics"
 F 5 "-" H 5100 5900 60  0001 C CNN "MFR"
@@ -675,12 +517,12 @@ F 15 "-" H 5100 5900 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C8
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C8
 U 1 1 599DBDD6
 P 4800 5900
 F 0 "C8" H 4550 5650 50  0000 L CNN
 F 1 "0.1uF 25v" H 4550 5550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -750 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -750 5150 50  0001 C CNN
 F 3 "" H -750 5150 50  0001 C CNN
 F 4 "-" H 4800 5900 60  0001 C CNN "Characteristics"
 F 5 "-" H 4800 5900 60  0001 C CNN "MFR"
@@ -700,7 +542,7 @@ $EndComp
 Text Label 6300 5700 2    60   ~ 0
 VCC
 $Comp
-L APE8865N-23-HF-3 U4
+L DI-Lambda-UNO-bottom-rescue:APE8865N-23-HF-3-RESCUE-DI-Lambda-UNO-bottom U4
 U 1 1 599DBDD7
 P 3100 4800
 F 0 "U4" H 3100 5120 50  0000 C CNN
@@ -723,7 +565,7 @@ F 15 "-" H 3100 4800 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR08
 U 1 1 599DBDD8
 P 3100 5300
 F 0 "#PWR08" H 1100 950 50  0001 C CNN
@@ -736,12 +578,12 @@ $EndComp
 Text Label 4000 4800 2    60   ~ 0
 VCC
 $Comp
-L C_Small C6
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C6
 U 1 1 599DBDDA
 P 2450 4950
 F 0 "C6" H 2350 5050 50  0000 R CNN
 F 1 "4.7uF 25v" H 2400 5150 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 150 2200 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 150 2200 50  0001 C CNN
 F 3 "" H 150 2200 50  0001 C CNN
 F 4 "-" H 2450 4950 60  0001 C CNN "Characteristics"
 F 5 "-" H 2450 4950 60  0001 C CNN "MFR"
@@ -759,12 +601,12 @@ F 15 "-" H 2450 4950 60  0001 C CNN "Used"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C7
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C7
 U 1 1 599DBDDB
 P 3700 5050
 F 0 "C7" H 3600 5150 50  0000 R CNN
 F 1 "4.7uF 25v" H 3650 5250 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0603" H 1400 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1400 2300 50  0001 C CNN
 F 3 "" H 1400 2300 50  0001 C CNN
 F 4 "-" H 3700 5050 60  0001 C CNN "Characteristics"
 F 5 "-" H 3700 5050 60  0001 C CNN "MFR"
@@ -781,17 +623,17 @@ F 15 "-" H 3700 5050 60  0001 C CNN "Used"
 	1    3700 5050
 	-1   0    0    1   
 $EndComp
-Text Label 12700 6300 1    60   ~ 0
+Text Label 12400 6350 1    60   ~ 0
 VCC
 $Comp
-L GND #PWR010
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR010
 U 1 1 599DBDE1
-P 12400 6350
-F 0 "#PWR010" H 10400 2000 50  0001 C CNN
-F 1 "GND" H 12550 6250 50  0000 C CNN
-F 2 "" H 10400 2250 50  0001 C CNN
-F 3 "" H 10400 2250 50  0001 C CNN
-	1    12400 6350
+P 12700 6300
+F 0 "#PWR010" H 10700 1950 50  0001 C CNN
+F 1 "GND" H 12850 6200 50  0000 C CNN
+F 2 "" H 10700 2200 50  0001 C CNN
+F 3 "" H 10700 2200 50  0001 C CNN
+	1    12700 6300
 	-1   0    0    -1  
 $EndComp
 Text Label 12500 6300 1    60   ~ 0
@@ -799,12 +641,12 @@ SDA
 Text Label 12600 6300 1    60   ~ 0
 SCL
 $Comp
-L R_Small R5
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R5
 U 1 1 599DBDE2
 P 7600 2900
 F 0 "R5" H 7659 2947 50  0000 L CNN
 F 1 "4.7k" H 7659 2854 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 150 100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 150 100 50  0001 C CNN
 F 3 "" H 150 100 50  0001 C CNN
 F 4 "-" H 7600 2900 60  0001 C CNN "Characteristics"
 F 5 "-" H 7600 2900 60  0001 C CNN "MFR"
@@ -822,12 +664,12 @@ F 15 "-" H 7600 2900 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R9
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R9
 U 1 1 599DBDE3
 P 7600 3400
 F 0 "R9" H 7659 3447 50  0000 L CNN
 F 1 "4.7k" H 7659 3354 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H 150 600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 150 600 50  0001 C CNN
 F 3 "" H 150 600 50  0001 C CNN
 F 4 "-" H 7600 3400 60  0001 C CNN "Characteristics"
 F 5 "-" H 7600 3400 60  0001 C CNN "MFR"
@@ -855,22 +697,22 @@ SCL
 Text Label 12750 8050 3    60   ~ 0
 SDA
 $Comp
-L GND #PWR013
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR013
 U 1 1 599DBDE6
-P 12850 8050
-F 0 "#PWR013" H 10850 3700 50  0001 C CNN
-F 1 "GND" V 12850 7800 50  0000 C CNN
-F 2 "" H 10850 3950 50  0001 C CNN
-F 3 "" H 10850 3950 50  0001 C CNN
-	1    12850 8050
+P 12550 8050
+F 0 "#PWR013" H 10550 3700 50  0001 C CNN
+F 1 "GND" V 12550 7800 50  0000 C CNN
+F 2 "" H 10550 3950 50  0001 C CNN
+F 3 "" H 10550 3950 50  0001 C CNN
+	1    12550 8050
 	1    0    0    1   
 $EndComp
-Text Label 12550 8050 3    60   ~ 0
+Text Label 12850 8050 3    60   ~ 0
 VCC
 Text Label 2100 4800 0    60   ~ 0
 VBUS
 $Comp
-L AP3032 U5
+L DI-Lambda-UNO-bottom-rescue:AP3032-RESCUE-DI-Lambda-UNO-bottom U5
 U 1 1 599DBDE8
 P 3150 8950
 F 0 "U5" H 2950 8600 60  0000 C CNN
@@ -897,12 +739,12 @@ VBUS
 Text Label 4000 9100 0    60   ~ 0
 BOOST_CTRL
 $Comp
-L C_Small C12
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C12
 U 1 1 599DBDE9
 P 3750 8550
 F 0 "C12" H 3842 8597 50  0000 L CNN
 F 1 "4.7uF 25v" H 3842 8504 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -4800 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -4800 4850 50  0001 C CNN
 F 3 "" H -4800 4850 50  0001 C CNN
 F 4 "-" H 3750 8550 60  0001 C CNN "Characteristics"
 F 5 "-" H 3750 8550 60  0001 C CNN "MFR"
@@ -920,7 +762,7 @@ F 15 "-" H 3750 8550 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR014
 U 1 1 599DBDEA
 P 3750 8250
 F 0 "#PWR014" H 3800 8300 50  0001 C CNN
@@ -931,12 +773,12 @@ F 3 "" H -5750 4050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C13
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C13
 U 1 1 599DBDEB
 P 4300 8550
 F 0 "C13" H 4392 8597 50  0000 L CNN
 F 1 "4.7uF 25v" H 4392 8504 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H -4250 4850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -4250 4850 50  0001 C CNN
 F 3 "" H -4250 4850 50  0001 C CNN
 F 4 "-" H 4300 8550 60  0001 C CNN "Characteristics"
 F 5 "-" H 4300 8550 60  0001 C CNN "MFR"
@@ -954,7 +796,7 @@ F 15 "-" H 4300 8550 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR015
 U 1 1 599DBDEC
 P 1500 8950
 F 0 "#PWR015" H -500 4600 50  0001 C CNN
@@ -967,7 +809,7 @@ $EndComp
 Text Notes 750  8250 0    60   ~ 0
 We need a known stable voltage to drive the LED.\nLet's make 12v out of either 5V USB or 9V battery\n(in other versions), and use PWM / resistor to drive the LED
 $Comp
-L L_Core_Ferrite L4
+L DI-Lambda-UNO-bottom-rescue:L_Core_Ferrite-RESCUE-DI-Lambda-UNO-bottom L4
 U 1 1 599DBDED
 P 3100 8500
 F 0 "L4" V 3331 8500 50  0000 C CNN
@@ -990,7 +832,7 @@ F 15 "-" H 3100 8500 60  0001 C CNN "Used"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L D_Schottky D3
+L DI-Lambda-UNO-bottom-rescue:D_Schottky-RESCUE-DI-Lambda-UNO-bottom D3
 U 1 1 599DBDEE
 P 2300 8800
 F 0 "D3" H 2300 9019 50  0000 C CNN
@@ -1015,12 +857,12 @@ $EndComp
 Text Label 1850 8500 2    60   ~ 0
 VLED
 $Comp
-L C_Small C14
+L DI-Lambda-UNO-bottom-rescue:C_Small-RESCUE-DI-Lambda-UNO-bottom C14
 U 1 1 599DBDEF
 P 1850 8800
 F 0 "C14" V 1618 8800 50  0000 C CNN
 F 1 "4.7uF 25v" V 1711 8800 50  0000 C CNN
-F 2 "Capacitors_SMD:C_0603" H -5750 4150 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H -5750 4150 50  0001 C CNN
 F 3 "" H -5750 4150 50  0001 C CNN
 F 4 "-" H 1850 8800 60  0001 C CNN "Characteristics"
 F 5 "-" H 1850 8800 60  0001 C CNN "MFR"
@@ -1038,12 +880,12 @@ F 15 "-" H 1850 8800 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R13
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R13
 U 1 1 599DBDF0
 P 2150 9100
 F 0 "R13" V 2349 9100 50  0000 C CNN
 F 1 "59K" V 2256 9100 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H -6000 4100 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -6000 4100 50  0001 C CNN
 F 3 "" H -6000 4100 50  0001 C CNN
 F 4 "-" H 2150 9100 60  0001 C CNN "Characteristics"
 F 5 "-" H 2150 9100 60  0001 C CNN "MFR"
@@ -1061,12 +903,12 @@ F 15 "-" H 2150 9100 60  0001 C CNN "Used"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R14
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R14
 U 1 1 599DBDF1
 P 2400 9300
 F 0 "R14" H 2459 9347 50  0000 L CNN
 F 1 "1K" H 2459 9254 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H -5750 4300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -5750 4300 50  0001 C CNN
 F 3 "" H -5750 4300 50  0001 C CNN
 F 4 "-" H 2400 9300 60  0001 C CNN "Characteristics"
 F 5 "-" H 2400 9300 60  0001 C CNN "MFR"
@@ -1084,7 +926,7 @@ F 15 "-" H 2400 9300 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR016
 U 1 1 599DBDF2
 P 2400 9500
 F 0 "#PWR016" H 400 5150 50  0001 C CNN
@@ -1101,7 +943,7 @@ VLED
 Text Notes 2950 9950 0    60   ~ 0
 Vout =(1+R1/R2)*0.2\nR2 = 1000\nR1 = 59000\nVout = 12.0V
 $Comp
-L GND #PWR018
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR018
 U 1 1 599DBDF6
 P 2150 1900
 F 0 "#PWR018" H 150 -2450 50  0001 C CNN
@@ -1112,12 +954,12 @@ F 3 "" H 150 -2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R1
 U 1 1 599DBDF8
 P 3850 1300
 F 0 "R1" H 3909 1347 50  0000 L CNN
 F 1 "4.7k" H 3909 1254 50  0000 L CNN
-F 2 "Resistors_SMD:R_0603" H -3600 -1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -3600 -1500 50  0001 C CNN
 F 3 "" H -3600 -1500 50  0001 C CNN
 F 4 "-" H 3850 1300 60  0001 C CNN "Characteristics"
 F 5 "-" H 3850 1300 60  0001 C CNN "MFR"
@@ -1135,12 +977,12 @@ F 15 "-" H 3850 1300 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R2
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R2
 U 1 1 599DBDF9
 P 3350 1550
 F 0 "R2" V 3151 1550 50  0000 C CNN
 F 1 "330R" V 3244 1550 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603" H -4800 -3450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -4800 -3450 50  0001 C CNN
 F 3 "" H -4800 -3450 50  0001 C CNN
 F 4 "-" H 3350 1550 60  0001 C CNN "Characteristics"
 F 5 "-" H 3350 1550 60  0001 C CNN "MFR"
@@ -1160,41 +1002,41 @@ $EndComp
 Text Notes 2150 1000 0    60   ~ 0
 See AVR042 application note
 $Comp
-L Conn_02x03_Odd_Even J17
+L DI-Lambda-UNO-bottom-rescue:Conn_02x03_Odd_Even-RESCUE-DI-Lambda-UNO-bottom J17
 U 1 1 599DBDFB
-P 12000 7200
-F 0 "J17" H 12000 7521 50  0000 C CNN
-F 1 "CONN_02X03" H 12000 7428 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x03_Pitch2.54mm_SMD_wide" H 3800 850 50  0001 C CNN
-F 3 "" H 3800 850 50  0001 C CNN
-F 4 "-" H 12000 7200 60  0001 C CNN "Characteristics"
-F 5 "-" H 12000 7200 60  0001 C CNN "MFR"
-F 6 "-" H 12000 7200 60  0001 C CNN "MPN"
-F 7 "-" H 12000 7200 60  0001 C CNN "MFR2"
-F 8 "-" H 12000 7200 60  0001 C CNN "MPN2"
-F 9 "-" H 12000 7200 60  0001 C CNN "Package"
-F 10 "-" H 12000 7200 60  0001 C CNN "SRC"
-F 11 "-" H 12000 7200 60  0001 C CNN "SCRN"
-F 12 "-" H 12000 7200 60  0001 C CNN "SRC2"
-F 13 "-" H 12000 7200 60  0001 C CNN "SRC2N"
-F 14 "-" H 12000 7200 60  0001 C CNN "Note"
-F 15 "-" H 12000 7200 60  0001 C CNN "Used"
-	1    12000 7200
+P 7900 4750
+F 0 "J17" H 7900 5071 50  0000 C CNN
+F 1 "CONN_02X03" H 7900 4978 50  0000 C CNN
+F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x03_Pitch2.54mm_SMD_wide" H -300 -1600 50  0001 C CNN
+F 3 "" H -300 -1600 50  0001 C CNN
+F 4 "-" H 7900 4750 60  0001 C CNN "Characteristics"
+F 5 "-" H 7900 4750 60  0001 C CNN "MFR"
+F 6 "-" H 7900 4750 60  0001 C CNN "MPN"
+F 7 "-" H 7900 4750 60  0001 C CNN "MFR2"
+F 8 "-" H 7900 4750 60  0001 C CNN "MPN2"
+F 9 "-" H 7900 4750 60  0001 C CNN "Package"
+F 10 "-" H 7900 4750 60  0001 C CNN "SRC"
+F 11 "-" H 7900 4750 60  0001 C CNN "SCRN"
+F 12 "-" H 7900 4750 60  0001 C CNN "SRC2"
+F 13 "-" H 7900 4750 60  0001 C CNN "SRC2N"
+F 14 "-" H 7900 4750 60  0001 C CNN "Note"
+F 15 "-" H 7900 4750 60  0001 C CNN "Used"
+	1    7900 4750
 	1    0    0    -1  
 $EndComp
-Text Label 11600 7100 0    60   ~ 0
+Text Label 7500 4650 0    60   ~ 0
 MISO
-Text Label 11600 7200 0    60   ~ 0
+Text Label 7500 4750 0    60   ~ 0
 SCK
-Text Label 11600 7300 0    60   ~ 0
+Text Label 7500 4850 0    60   ~ 0
 RST
-Text Label 12450 7100 2    60   ~ 0
+Text Label 8350 4650 2    60   ~ 0
 VCC
-Text Label 12450 7200 2    60   ~ 0
+Text Label 8350 4750 2    60   ~ 0
 MOSI
-Text Label 12450 7300 2    60   ~ 0
+Text Label 8350 4850 2    60   ~ 0
 GND
-Text Notes 12000 7450 0    60   ~ 0
+Text Notes 7900 5000 0    60   ~ 0
 ISP
 Text Label 4400 1600 2    60   ~ 0
 RST
@@ -1211,7 +1053,7 @@ TX
 Text Label 7050 4100 0    60   ~ 0
 BOOST_CTRL
 $Comp
-L SW_Push SW1
+L DI-Lambda-UNO-bottom-rescue:SW_Push-RESCUE-DI-Lambda-UNO-bottom SW1
 U 1 1 599DBE05
 P 2650 1550
 F 0 "SW1" H 2650 1841 50  0000 C CNN
@@ -1234,7 +1076,7 @@ F 15 "-" H 2650 1550 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR021
 U 1 1 599DBE06
 P 3650 3500
 F 0 "#PWR021" H 1650 -850 50  0001 C CNN
@@ -1255,7 +1097,7 @@ VCC
 Text Label 7600 3600 2    60   ~ 0
 VCC
 $Comp
-L PWR_FLAG #FLG01
+L DI-Lambda-UNO-bottom-rescue:PWR_FLAG-RESCUE-DI-Lambda-UNO-bottom #FLG01
 U 1 1 59A5C82E
 P 1950 2700
 F 0 "#FLG01" H 1950 2775 50  0001 C CNN
@@ -1285,7 +1127,7 @@ NoConn ~ 4450 4300
 Text Label 2150 3450 0    60   ~ 0
 VBUS
 $Comp
-L Conn_01x01 J2
+L DI-Lambda-UNO-bottom-rescue:Conn_01x01-RESCUE-DI-Lambda-UNO-bottom J2
 U 1 1 59A6FC7C
 P 7300 3300
 F 0 "J2" H 7350 3300 50  0000 L CNN
@@ -1308,7 +1150,7 @@ F 15 "-" H 7300 3300 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Conn_01x01 J4
+L DI-Lambda-UNO-bottom-rescue:Conn_01x01-RESCUE-DI-Lambda-UNO-bottom J4
 U 1 1 59A70936
 P 7100 3400
 F 0 "J4" H 7050 3300 50  0000 L CNN
@@ -1331,7 +1173,7 @@ F 15 "-" H 7100 3400 60  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG02
+L DI-Lambda-UNO-bottom-rescue:PWR_FLAG-RESCUE-DI-Lambda-UNO-bottom #FLG02
 U 1 1 59A73710
 P 1400 4650
 F 0 "#FLG02" H 1400 4725 50  0001 C CNN
@@ -1343,40 +1185,6 @@ F 3 "" H 1400 4650 50  0001 C CNN
 $EndComp
 Text Label 4050 3500 0    60   ~ 0
 VCC
-$Comp
-L Conn_02x05_Odd_Even J3
-U 1 1 599BFA57
-P 11800 6350
-F 0 "J3" H 11800 6721 50  0000 C CNN
-F 1 "CONN_02X05" H 11800 6628 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x04_Pitch2.54mm_SMD_2THT_wide" H 7550 3000 50  0001 C CNN
-F 3 "" H 7550 3000 50  0001 C CNN
-F 4 "-" H 11800 6350 60  0001 C CNN "Characteristics"
-F 5 "-" H 11800 6350 60  0001 C CNN "MFR"
-F 6 "-" H 11800 6350 60  0001 C CNN "MPN"
-F 7 "-" H 11800 6350 60  0001 C CNN "MFR2"
-F 8 "-" H 11800 6350 60  0001 C CNN "MPN2"
-F 9 "-" H 11800 6350 60  0001 C CNN "Package"
-F 10 "-" H 11800 6350 60  0001 C CNN "SRC"
-F 11 "-" H 11800 6350 60  0001 C CNN "SCRN"
-F 12 "-" H 11800 6350 60  0001 C CNN "SRC2"
-F 13 "-" H 11800 6350 60  0001 C CNN "SRC2N"
-F 14 "-" H 11800 6350 60  0001 C CNN "Note"
-F 15 "-" H 11800 6350 60  0001 C CNN "Used"
-	1    11800 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR09
-U 1 1 5A2AC5D0
-P 11150 8850
-F 0 "#PWR09" H 9150 4500 50  0001 C CNN
-F 1 "GND" V 11150 8600 50  0000 C CNN
-F 2 "" H 9150 4750 50  0001 C CNN
-F 3 "" H 9150 4750 50  0001 C CNN
-	1    11150 8850
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	950  3900 950  4050
 Wire Wire Line
@@ -1392,34 +1200,34 @@ Wire Wire Line
 Wire Wire Line
 	2050 3500 2050 3250
 Wire Wire Line
-	2050 3250 2450 3250
+	2050 3250 2350 3250
 Wire Wire Line
 	2100 3600 2250 3600
 Wire Wire Line
 	2250 3600 2250 3650
 Wire Wire Line
-	2250 3650 2450 3650
+	2250 3650 2350 3650
 Wire Wire Line
-	3450 3250 4450 3250
+	3450 3250 3600 3250
 Wire Wire Line
-	3450 3650 3850 3650
+	3450 3650 3600 3650
 Wire Wire Line
 	3850 3650 3850 3350
 Wire Wire Line
 	3850 3350 4450 3350
 Wire Wire Line
-	950  4250 950  4650
+	950  4250 950  4550
 Wire Wire Line
 	1050 4450 1050 4550
 Wire Wire Line
-	950  4550 1400 4550
+	950  4550 1050 4550
 Connection ~ 950  4550
 Wire Wire Line
 	1600 3300 1700 3300
 Wire Wire Line
 	4300 3550 4300 3500
 Wire Wire Line
-	4050 3500 4450 3500
+	4050 3500 4300 3500
 Wire Wire Line
 	4300 3750 4300 3850
 Wire Wire Line
@@ -1427,9 +1235,9 @@ Wire Wire Line
 Wire Wire Line
 	4200 2300 4200 2200
 Wire Wire Line
-	4200 2200 3600 2200
+	4200 2200 3900 2200
 Wire Wire Line
-	3600 2600 4200 2600
+	3600 2600 3900 2600
 Wire Wire Line
 	4200 2600 4200 2500
 Wire Wire Line
@@ -1443,14 +1251,14 @@ Connection ~ 3900 2600
 Wire Wire Line
 	3400 2200 3150 2200
 Wire Wire Line
-	3150 2200 3150 2650
+	3150 2200 3150 2600
 Wire Wire Line
 	3400 2600 3150 2600
 Connection ~ 3150 2600
 Wire Wire Line
 	5200 5050 5200 5250
 Wire Wire Line
-	5200 5250 5950 5250
+	5200 5250 5450 5250
 Wire Wire Line
 	5950 5250 5950 5300
 Wire Wire Line
@@ -1468,7 +1276,7 @@ Connection ~ 5750 5250
 Wire Wire Line
 	5400 1650 5400 1400
 Wire Wire Line
-	5400 1400 6400 1400
+	5400 1400 5500 1400
 Wire Wire Line
 	5500 1650 5500 1400
 Connection ~ 5500 1400
@@ -1481,7 +1289,7 @@ Connection ~ 5850 1400
 Wire Wire Line
 	3850 1200 3850 1000
 Wire Wire Line
-	3850 1400 3850 1700
+	3850 1400 3850 1550
 Wire Wire Line
 	3850 1900 3850 1950
 Wire Wire Line
@@ -1489,18 +1297,18 @@ Wire Wire Line
 Wire Wire Line
 	4100 1900 4100 1600
 Wire Wire Line
-	3850 1600 4400 1600
+	3850 1600 4100 1600
 Connection ~ 3850 1600
 Wire Wire Line
 	1950 3300 1900 3300
 Wire Wire Line
-	1950 2700 1950 3300
+	1950 2700 1950 2800
 Wire Wire Line
 	1950 2800 2250 2800
 Wire Wire Line
 	4800 6000 4800 6050
 Wire Wire Line
-	4800 6050 6150 6050
+	4800 6050 5100 6050
 Wire Wire Line
 	6000 6050 6000 6000
 Wire Wire Line
@@ -1514,7 +1322,7 @@ Connection ~ 5550 6050
 Wire Wire Line
 	4800 5800 4800 5700
 Wire Wire Line
-	4800 5700 6300 5700
+	4800 5700 5100 5700
 Wire Wire Line
 	6000 5700 6000 5800
 Wire Wire Line
@@ -1525,11 +1333,11 @@ Wire Wire Line
 Connection ~ 5550 5700
 Connection ~ 6000 6050
 Wire Wire Line
-	1950 4800 2800 4800
+	1950 4800 2450 4800
 Wire Wire Line
-	3400 4800 4000 4800
+	3400 4800 3700 4800
 Wire Wire Line
-	3100 5100 3100 5300
+	3100 5100 3100 5200
 Wire Wire Line
 	2450 4850 2450 4800
 Connection ~ 2450 4800
@@ -1556,9 +1364,9 @@ Wire Wire Line
 Wire Wire Line
 	12400 5850 12400 6350
 Wire Wire Line
-	6700 3100 7950 3100
+	6700 3100 7600 3100
 Wire Wire Line
-	6700 3200 7750 3200
+	6700 3200 7600 3200
 Wire Wire Line
 	7600 3100 7600 3000
 Wire Wire Line
@@ -1580,14 +1388,14 @@ Wire Wire Line
 Wire Wire Line
 	12550 8050 12550 8650
 Wire Wire Line
-	3600 8800 4450 8800
+	3600 8800 3650 8800
 Wire Wire Line
 	3600 9100 4000 9100
 Wire Wire Line
 	3750 8650 3750 8800
 Connection ~ 3750 8800
 Wire Wire Line
-	3750 8250 3750 8450
+	3750 8250 3750 8350
 Wire Wire Line
 	4300 8650 4300 8800
 Connection ~ 4300 8800
@@ -1597,21 +1405,21 @@ Wire Wire Line
 	4300 8350 3750 8350
 Connection ~ 3750 8350
 Wire Wire Line
-	1500 8950 2650 8950
+	1500 8950 1650 8950
 Wire Wire Line
 	3250 8500 3650 8500
 Wire Wire Line
 	3650 8500 3650 8800
 Connection ~ 3650 8800
 Wire Wire Line
-	2450 8800 2650 8800
+	2450 8800 2550 8800
 Wire Wire Line
 	2550 8500 2950 8500
 Wire Wire Line
 	2550 8500 2550 8800
 Connection ~ 2550 8800
 Wire Wire Line
-	1950 8800 2150 8800
+	1950 8800 2050 8800
 Wire Wire Line
 	2050 8800 2050 8500
 Wire Wire Line
@@ -1625,7 +1433,7 @@ Connection ~ 1650 8950
 Wire Wire Line
 	2050 9100 1800 9100
 Wire Wire Line
-	2250 9100 2650 9100
+	2250 9100 2400 9100
 Wire Wire Line
 	2400 9100 2400 9200
 Connection ~ 2400 9100
@@ -1643,17 +1451,17 @@ Wire Wire Line
 Wire Wire Line
 	3450 1550 3850 1550
 Wire Wire Line
-	11800 7100 11600 7100
+	7700 4650 7500 4650
 Wire Wire Line
-	12300 7100 12450 7100
+	8200 4650 8350 4650
 Wire Wire Line
-	11800 7200 11600 7200
+	7700 4750 7500 4750
 Wire Wire Line
-	12300 7200 12450 7200
+	8200 4750 8350 4750
 Wire Wire Line
-	11800 7300 11600 7300
+	7700 4850 7500 4850
 Wire Wire Line
-	12300 7300 12450 7300
+	8200 4850 8350 4850
 Wire Wire Line
 	6700 2000 7350 2000
 Wire Wire Line
@@ -1672,7 +1480,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3450 2450 3450
 Wire Wire Line
-	4050 2850 4450 2850
+	4050 2850 4350 2850
 Wire Wire Line
 	4350 2850 4350 3100
 Wire Wire Line
@@ -1695,11 +1503,11 @@ Wire Wire Line
 Connection ~ 3600 3650
 Connection ~ 2350 3650
 Wire Notes Line
-	10650 4950 15000 4950
+	10650 4950 15700 4950
 Wire Notes Line
-	15000 4950 15000 9600
+	15700 4950 15700 9600
 Wire Notes Line
-	15000 9600 10650 9600
+	15700 9600 10650 9600
 Wire Notes Line
 	10650 9600 10650 4950
 Wire Wire Line
@@ -1711,250 +1519,8 @@ Connection ~ 1050 4550
 Wire Wire Line
 	1400 4550 1400 4650
 Connection ~ 4300 3500
-Wire Wire Line
-	11300 8150 11150 8150
-Wire Wire Line
-	11150 8150 11150 8850
-Wire Wire Line
-	11300 8550 11150 8550
-Connection ~ 11150 8550
-Wire Wire Line
-	11300 8450 11150 8450
-Connection ~ 11150 8450
-Wire Wire Line
-	11300 8350 11150 8350
-Connection ~ 11150 8350
-Wire Wire Line
-	11300 8250 11150 8250
-Connection ~ 11150 8250
-Wire Wire Line
-	11800 8150 12000 8150
-Wire Wire Line
-	12000 8150 12000 8700
-Wire Wire Line
-	12000 8700 11150 8700
-Connection ~ 11150 8700
-Wire Wire Line
-	11800 8550 12000 8550
-Connection ~ 12000 8550
-Wire Wire Line
-	11800 8450 12000 8450
-Connection ~ 12000 8450
-Wire Wire Line
-	11800 8350 12000 8350
-Connection ~ 12000 8350
-Wire Wire Line
-	11800 8250 12000 8250
-Connection ~ 12000 8250
-Wire Wire Line
-	11600 6150 11450 6150
-Wire Wire Line
-	11450 6150 11450 6900
 $Comp
-L GND #PWR011
-U 1 1 5A2AE299
-P 11450 6900
-F 0 "#PWR011" H 9450 2550 50  0001 C CNN
-F 1 "GND" H 11600 6800 50  0000 C CNN
-F 2 "" H 9450 2800 50  0001 C CNN
-F 3 "" H 9450 2800 50  0001 C CNN
-	1    11450 6900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	11600 6250 11450 6250
-Connection ~ 11450 6250
-Wire Wire Line
-	11600 6350 11450 6350
-Connection ~ 11450 6350
-Wire Wire Line
-	11600 6450 11450 6450
-Connection ~ 11450 6450
-Wire Wire Line
-	11600 6550 11450 6550
-Connection ~ 11450 6550
-Wire Wire Line
-	12100 6150 12200 6150
-Wire Wire Line
-	12200 6150 12200 6800
-Wire Wire Line
-	12200 6800 11450 6800
-Connection ~ 11450 6800
-Wire Wire Line
-	12100 6550 12200 6550
-Connection ~ 12200 6550
-Wire Wire Line
-	12100 6450 12200 6450
-Connection ~ 12200 6450
-Wire Wire Line
-	12100 6350 12200 6350
-Connection ~ 12200 6350
-Wire Wire Line
-	12100 6250 12200 6250
-Connection ~ 12200 6250
-$Comp
-L GND #PWR012
-U 1 1 5A2AFC29
-P 13900 6850
-F 0 "#PWR012" H 11900 2500 50  0001 C CNN
-F 1 "GND" H 14050 6750 50  0000 C CNN
-F 2 "" H 11900 2750 50  0001 C CNN
-F 3 "" H 11900 2750 50  0001 C CNN
-	1    13900 6850
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13750 6150 13900 6150
-Wire Wire Line
-	13900 6150 13900 6850
-Wire Wire Line
-	13750 6550 13900 6550
-Connection ~ 13900 6550
-Wire Wire Line
-	13750 6450 13900 6450
-Connection ~ 13900 6450
-Wire Wire Line
-	13750 6350 13900 6350
-Connection ~ 13900 6350
-Wire Wire Line
-	13750 6250 13900 6250
-Connection ~ 13900 6250
-Wire Wire Line
-	13250 6150 13100 6150
-Wire Wire Line
-	13100 6150 13100 6800
-Wire Wire Line
-	13100 6800 13900 6800
-Connection ~ 13900 6800
-Wire Wire Line
-	13250 6550 13100 6550
-Connection ~ 13100 6550
-Wire Wire Line
-	13250 6450 13100 6450
-Connection ~ 13100 6450
-Wire Wire Line
-	13250 6350 13100 6350
-Connection ~ 13100 6350
-Wire Wire Line
-	13250 6250 13100 6250
-Connection ~ 13100 6250
-Wire Wire Line
-	13850 8150 14100 8150
-Wire Wire Line
-	14100 8150 14100 8900
-$Comp
-L GND #PWR017
-U 1 1 5A2B17C5
-P 14100 8900
-F 0 "#PWR017" H 12100 4550 50  0001 C CNN
-F 1 "GND" V 14100 8650 50  0000 C CNN
-F 2 "" H 12100 4800 50  0001 C CNN
-F 3 "" H 12100 4800 50  0001 C CNN
-	1    14100 8900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	13350 8150 13250 8150
-Wire Wire Line
-	13250 8150 13250 8800
-Wire Wire Line
-	13250 8800 14100 8800
-Connection ~ 14100 8800
-Wire Wire Line
-	13350 8250 13250 8250
-Connection ~ 13250 8250
-Wire Wire Line
-	13350 8350 13250 8350
-Connection ~ 13250 8350
-Wire Wire Line
-	13350 8450 13250 8450
-Connection ~ 13250 8450
-Wire Wire Line
-	13350 8550 13250 8550
-Connection ~ 13250 8550
-Wire Wire Line
-	13850 8250 14100 8250
-Connection ~ 14100 8250
-Wire Wire Line
-	13850 8350 14100 8350
-Connection ~ 14100 8350
-Wire Wire Line
-	13850 8450 14100 8450
-Connection ~ 14100 8450
-Wire Wire Line
-	13850 8550 14100 8550
-Connection ~ 14100 8550
-NoConn ~ 6700 2400
-$Comp
-L Conn_02x03_Odd_Even J1
-U 1 1 5A2BC476
-P 13350 7250
-F 0 "J1" H 13350 7571 50  0000 C CNN
-F 1 "CONN_02X03" H 13350 7478 50  0000 C CNN
-F 2 "Female_socket_pitch254_smt_through-board:Pin_Header_Straight_2x03_Pitch2.54mm_SMD_wide" H 5150 900 50  0001 C CNN
-F 3 "" H 5150 900 50  0001 C CNN
-F 4 "-" H 13350 7250 60  0001 C CNN "Characteristics"
-F 5 "-" H 13350 7250 60  0001 C CNN "MFR"
-F 6 "-" H 13350 7250 60  0001 C CNN "MPN"
-F 7 "-" H 13350 7250 60  0001 C CNN "MFR2"
-F 8 "-" H 13350 7250 60  0001 C CNN "MPN2"
-F 9 "-" H 13350 7250 60  0001 C CNN "Package"
-F 10 "-" H 13350 7250 60  0001 C CNN "SRC"
-F 11 "-" H 13350 7250 60  0001 C CNN "SCRN"
-F 12 "-" H 13350 7250 60  0001 C CNN "SRC2"
-F 13 "-" H 13350 7250 60  0001 C CNN "SRC2N"
-F 14 "-" H 13350 7250 60  0001 C CNN "Note"
-F 15 "-" H 13350 7250 60  0001 C CNN "Used"
-	1    13350 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR019
-U 1 1 5A2BEEFA
-P 12450 8050
-F 0 "#PWR019" H 10450 3700 50  0001 C CNN
-F 1 "GND" V 12450 7800 50  0000 C CNN
-F 2 "" H 10450 3950 50  0001 C CNN
-F 3 "" H 10450 3950 50  0001 C CNN
-	1    12450 8050
-	1    0    0    1   
-$EndComp
-Wire Wire Line
-	13150 7150 13050 7150
-Wire Wire Line
-	13050 7150 13050 7600
-Wire Wire Line
-	13650 7150 13750 7150
-Wire Wire Line
-	13750 7150 13750 7500
-Wire Wire Line
-	13750 7500 13050 7500
-Connection ~ 13050 7500
-Wire Wire Line
-	13150 7350 13050 7350
-Connection ~ 13050 7350
-Wire Wire Line
-	13150 7250 13050 7250
-Connection ~ 13050 7250
-Wire Wire Line
-	13650 7250 13750 7250
-Connection ~ 13750 7250
-Wire Wire Line
-	13650 7350 13750 7350
-Connection ~ 13750 7350
-$Comp
-L GND #PWR020
-U 1 1 5A2C6767
-P 13050 7600
-F 0 "#PWR020" H 11050 3250 50  0001 C CNN
-F 1 "GND" H 13200 7500 50  0000 C CNN
-F 2 "" H 11050 3500 50  0001 C CNN
-F 3 "" H 11050 3500 50  0001 C CNN
-	1    13050 7600
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Conn_01x01 J5
+L DI-Lambda-UNO-bottom-rescue:Conn_01x01-RESCUE-DI-Lambda-UNO-bottom J5
 U 1 1 5A2CB918
 P 12700 7200
 F 0 "J5" V 12665 7109 50  0000 R CNN
@@ -1965,7 +1531,7 @@ F 3 "" H 12700 7200 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR022
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR022
 U 1 1 5A2CBA79
 P 12700 7450
 F 0 "#PWR022" H 10700 3100 50  0001 C CNN
@@ -1978,16 +1544,357 @@ $EndComp
 Wire Wire Line
 	12700 7400 12700 7450
 $Comp
-L GND #PWR?
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR09
 U 1 1 5A2D6252
-P 12800 6350
-F 0 "#PWR?" H 10800 2000 50  0001 C CNN
-F 1 "GND" H 12950 6250 50  0000 C CNN
-F 2 "" H 10800 2250 50  0001 C CNN
-F 3 "" H 10800 2250 50  0001 C CNN
-	1    12800 6350
+P 12800 6450
+F 0 "#PWR09" H 10800 2100 50  0001 C CNN
+F 1 "GND" H 12950 6350 50  0000 C CNN
+F 2 "" H 10800 2350 50  0001 C CNN
+F 3 "" H 10800 2350 50  0001 C CNN
+	1    12800 6450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	12800 5850 12800 6350
+	12800 5850 12800 6450
+Wire Wire Line
+	950  4550 950  4650
+Wire Wire Line
+	3900 2200 3600 2200
+Wire Wire Line
+	3900 2600 4200 2600
+Wire Wire Line
+	3150 2600 3150 2650
+Wire Wire Line
+	5450 5250 5550 5250
+Wire Wire Line
+	5550 5250 5650 5250
+Wire Wire Line
+	5650 5250 5750 5250
+Wire Wire Line
+	5750 5250 5950 5250
+Wire Wire Line
+	5500 1400 5750 1400
+Wire Wire Line
+	5750 1400 5850 1400
+Wire Wire Line
+	5850 1400 6400 1400
+Wire Wire Line
+	3850 1600 3850 1700
+Wire Wire Line
+	5100 6050 5550 6050
+Wire Wire Line
+	5550 6050 6000 6050
+Wire Wire Line
+	5100 5700 5550 5700
+Wire Wire Line
+	5550 5700 6000 5700
+Wire Wire Line
+	6000 6050 6150 6050
+Wire Wire Line
+	2450 4800 2800 4800
+Wire Wire Line
+	3100 5250 3100 5300
+Wire Wire Line
+	6000 5700 6300 5700
+Wire Wire Line
+	3700 4800 4000 4800
+Wire Wire Line
+	3100 5200 3100 5250
+Wire Wire Line
+	3750 8800 4300 8800
+Wire Wire Line
+	4300 8800 4450 8800
+Wire Wire Line
+	3750 8350 3750 8450
+Wire Wire Line
+	3650 8800 3750 8800
+Wire Wire Line
+	2550 8800 2650 8800
+Wire Wire Line
+	2050 8800 2150 8800
+Wire Wire Line
+	1650 8950 2650 8950
+Wire Wire Line
+	2400 9100 2650 9100
+Wire Wire Line
+	7600 3100 7950 3100
+Wire Wire Line
+	7600 3200 7750 3200
+Wire Wire Line
+	3850 1550 3850 1600
+Wire Wire Line
+	4100 1600 4400 1600
+Wire Wire Line
+	4350 2850 4450 2850
+Wire Wire Line
+	3600 3250 4450 3250
+Wire Wire Line
+	2350 3250 2450 3250
+Wire Wire Line
+	3600 3650 3850 3650
+Wire Wire Line
+	2350 3650 2450 3650
+Wire Wire Line
+	1950 2800 1950 3300
+Wire Wire Line
+	1050 4550 1400 4550
+Wire Wire Line
+	4300 3500 4450 3500
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J6
+U 1 1 5A797683
+P 11650 7250
+F 0 "J6" H 11700 7570 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 11700 7477 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_2cap_6pads_short_vias" H 11650 7250 50  0001 C CNN
+F 3 "~" H 11650 7250 50  0001 C CNN
+	1    11650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J7
+U 1 1 5A79772B
+P 13750 7300
+F 0 "J7" H 13800 7620 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 13800 7527 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_2cap_6pads_short_vias" H 13750 7300 50  0001 C CNN
+F 3 "~" H 13750 7300 50  0001 C CNN
+	1    13750 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5A798248
+P 11550 6000
+F 0 "J1" H 11600 6320 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 11600 6227 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_no_cap_8pads_short_vias" H 11550 6000 50  0001 C CNN
+F 3 "~" H 11550 6000 50  0001 C CNN
+	1    11550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J3
+U 1 1 5A79871B
+P 13800 6050
+F 0 "J3" H 13850 6370 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 13850 6277 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_no_cap_8pads_short_vias" H 13800 6050 50  0001 C CNN
+F 3 "~" H 13800 6050 50  0001 C CNN
+	1    13800 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J8
+U 1 1 5A7A1D3A
+P 11500 8450
+F 0 "J8" H 11550 8770 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 11550 8677 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_no_cap_8pads_short_vias" H 11500 8450 50  0001 C CNN
+F 3 "~" H 11500 8450 50  0001 C CNN
+	1    11500 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5A7B8677
+P 12600 6950
+F 0 "MK1" H 12700 6997 50  0000 L CNN
+F 1 "Mounting_Hole" H 12700 6904 50  0000 L CNN
+F 2 "DI-Lambda-module-tabs:Slot_pinhole" H 12600 6950 50  0001 C CNN
+F 3 "" H 12600 6950 50  0001 C CNN
+F 4 "-" H 12600 6950 50  0001 C CNN "Characteristics"
+F 5 "-" H 12600 6950 50  0001 C CNN "MFR"
+F 6 "-" H 12600 6950 50  0001 C CNN "MPN"
+F 7 "-" H 12600 6950 50  0001 C CNN "MFR2"
+F 8 "-" H 12600 6950 50  0001 C CNN "MPN2"
+F 9 "-" H 12600 6950 50  0001 C CNN "Package"
+F 10 "-" H 12600 6950 50  0001 C CNN "SRC"
+F 11 "-" H 12600 6950 50  0001 C CNN "SCRN"
+F 12 "-" H 12600 6950 50  0001 C CNN "SRC2"
+F 13 "-" H 12600 6950 50  0001 C CNN "SRC2N"
+F 14 "-" H 12600 6950 50  0001 C CNN "Note"
+F 15 "-" H 12600 6950 50  0001 C CNN "Used"
+	1    12600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK2
+U 1 1 5A7B95DF
+P 12600 5450
+F 0 "MK2" H 12700 5497 50  0000 L CNN
+F 1 "Mounting_Hole" H 12700 5404 50  0000 L CNN
+F 2 "DI-Lambda-module-tabs:Slot_LED" H 12600 5450 50  0001 C CNN
+F 3 "" H 12600 5450 50  0001 C CNN
+F 4 "-" H 12600 5450 50  0001 C CNN "Characteristics"
+F 5 "-" H 12600 5450 50  0001 C CNN "MFR"
+F 6 "-" H 12600 5450 50  0001 C CNN "MPN"
+F 7 "-" H 12600 5450 50  0001 C CNN "MFR2"
+F 8 "-" H 12600 5450 50  0001 C CNN "MPN2"
+F 9 "-" H 12600 5450 50  0001 C CNN "Package"
+F 10 "-" H 12600 5450 50  0001 C CNN "SRC"
+F 11 "-" H 12600 5450 50  0001 C CNN "SCRN"
+F 12 "-" H 12600 5450 50  0001 C CNN "SRC2"
+F 13 "-" H 12600 5450 50  0001 C CNN "SRC2N"
+F 14 "-" H 12600 5450 50  0001 C CNN "Note"
+F 15 "-" H 12600 5450 50  0001 C CNN "Used"
+	1    12600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK3
+U 1 1 5A7B9659
+P 12650 7700
+F 0 "MK3" H 12750 7747 50  0000 L CNN
+F 1 "Mounting_Hole" H 12750 7654 50  0000 L CNN
+F 2 "DI-Lambda-module-tabs:Slot_pinhole" H 12650 7700 50  0001 C CNN
+F 3 "" H 12650 7700 50  0001 C CNN
+	1    12650 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK4
+U 1 1 5A7B96D7
+P 12600 9000
+F 0 "MK4" H 12700 9047 50  0000 L CNN
+F 1 "Mounting_Hole" H 12700 8954 50  0000 L CNN
+F 2 "DI-Lambda-module-tabs:Slot_sensor" H 12600 9000 50  0001 C CNN
+F 3 "" H 12600 9000 50  0001 C CNN
+F 4 "-" H 12600 9000 50  0001 C CNN "Characteristics"
+F 5 "-" H 12600 9000 50  0001 C CNN "MFR"
+F 6 "-" H 12600 9000 50  0001 C CNN "MPN"
+F 7 "-" H 12600 9000 50  0001 C CNN "MFR2"
+F 8 "-" H 12600 9000 50  0001 C CNN "MPN2"
+F 9 "-" H 12600 9000 50  0001 C CNN "Package"
+F 10 "-" H 12600 9000 50  0001 C CNN "SRC"
+F 11 "-" H 12600 9000 50  0001 C CNN "SCRN"
+F 12 "-" H 12600 9000 50  0001 C CNN "SRC2"
+F 13 "-" H 12600 9000 50  0001 C CNN "SRC2N"
+F 14 "-" H 12600 9000 50  0001 C CNN "Note"
+F 15 "-" H 12600 9000 50  0001 C CNN "Used"
+	1    12600 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2400 7300 2400
+Text Label 6050 8600 2    60   ~ 0
+LED_PWM
+$Comp
+L Device:Q_NMOS_GSD Q1
+U 1 1 5A7CE536
+P 6550 8600
+F 0 "Q1" H 6756 8647 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 6756 8554 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6750 8700 50  0001 C CNN
+F 3 "" H 6550 8600 50  0001 C CNN
+	1    6550 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8600 6250 8600
+$Comp
+L DI-Lambda-UNO-bottom-rescue:GND-RESCUE-DI-Lambda-UNO-bottom #PWR011
+U 1 1 5A7E32C6
+P 6650 9100
+F 0 "#PWR011" H 4650 4750 50  0001 C CNN
+F 1 "GND" H 6655 8923 50  0000 C CNN
+F 2 "" H 4650 5000 50  0001 C CNN
+F 3 "" H 4650 5000 50  0001 C CNN
+	1    6650 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 8800 6650 9000
+$Comp
+L DI-Lambda-UNO-bottom-rescue:R_Small-RESCUE-DI-Lambda-UNO-bottom R3
+U 1 1 5A7F2AEB
+P 6250 8800
+F 0 "R3" H 6309 8847 50  0000 L CNN
+F 1 "4.7k" H 6309 8754 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H -1200 6000 50  0001 C CNN
+F 3 "" H -1200 6000 50  0001 C CNN
+F 4 "-" H 6250 8800 60  0001 C CNN "Characteristics"
+F 5 "-" H 6250 8800 60  0001 C CNN "MFR"
+F 6 "-" H 6250 8800 60  0001 C CNN "MPN"
+F 7 "-" H 6250 8800 60  0001 C CNN "MFR2"
+F 8 "-" H 6250 8800 60  0001 C CNN "MPN2"
+F 9 "-" H 6250 8800 60  0001 C CNN "Package"
+F 10 "-" H 6250 8800 60  0001 C CNN "SRC"
+F 11 "-" H 6250 8800 60  0001 C CNN "SCRN"
+F 12 "-" H 6250 8800 60  0001 C CNN "SRC2"
+F 13 "-" H 6250 8800 60  0001 C CNN "SRC2N"
+F 14 "-" H 6250 8800 60  0001 C CNN "Note"
+F 15 "-" H 6250 8800 60  0001 C CNN "Used"
+	1    6250 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 8700 6250 8600
+Connection ~ 6250 8600
+Wire Wire Line
+	6250 8600 6350 8600
+Wire Wire Line
+	6250 8900 6250 9000
+Wire Wire Line
+	6250 9000 6650 9000
+Connection ~ 6650 9000
+Wire Wire Line
+	6650 9000 6650 9100
+Wire Wire Line
+	6650 8400 6650 8100
+Text Label 7300 2400 2    60   ~ 0
+LED_PWM
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J9
+U 1 1 5A7AAFE4
+P 13800 8450
+F 0 "J9" H 13850 8770 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 13850 8677 50  0000 C CNN
+F 2 "Board_grooves:Pocket_1.6mm_10mm_no_cap_8pads_short_vias" H 13800 8450 50  0001 C CNN
+F 3 "~" H 13800 8450 50  0001 C CNN
+	1    13800 8450
+	1    0    0    -1  
+$EndComp
+Text Label 6650 8100 0    60   ~ 0
+GLED
+Text Label 12450 8050 3    60   ~ 0
+GLED
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 5A77963E
+P 14800 6450
+F 0 "J?" H 14850 6670 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 14850 6577 50  0000 C CNN
+F 2 "" H 14800 6450 50  0001 C CNN
+F 3 "~" H 14800 6450 50  0001 C CNN
+	1    14800 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 5A77AFB1
+P 14800 6950
+F 0 "J?" H 14850 7170 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 14850 7077 50  0000 C CNN
+F 2 "" H 14800 6950 50  0001 C CNN
+F 3 "~" H 14800 6950 50  0001 C CNN
+	1    14800 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14600 6450 14450 6450
+Wire Wire Line
+	14600 6550 14450 6550
+Wire Wire Line
+	15100 6450 15250 6450
+Wire Wire Line
+	15100 6550 15250 6550
+Wire Wire Line
+	14600 6950 14450 6950
+Wire Wire Line
+	14600 7050 14450 7050
+Wire Wire Line
+	15100 6950 15250 6950
+Wire Wire Line
+	15100 7050 15250 7050
 $EndSCHEMATC
