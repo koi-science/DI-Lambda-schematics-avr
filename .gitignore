@@ -1,0 +1,15 @@
+*.png
+*.jpg
+*.pdf
+*.svg
+*-cache.lib
+*-rescue.lib
+*-gerbers-*
+*.bak
+*.bck
+*.stp
+*.kicad_pcb-bak
+*.zip
+*.xlsx
+*.csv
+*.dxf

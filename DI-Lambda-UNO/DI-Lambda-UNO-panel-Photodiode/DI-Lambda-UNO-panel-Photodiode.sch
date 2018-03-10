@@ -1,92 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:DI-Lambda-UNO-panel-Photodiode-rescue
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos4000
-LIBS:cmos_ieee
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:intersil
-LIBS:ir
-LIBS:Lattice
-LIBS:LEM
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:microcontrollers
-LIBS:modules
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
-LIBS:powerint
-LIBS:Power_Management
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:RFSolutions
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:triac_thyristor
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:wiznet
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:zetex
-LIBS:Zilog
-LIBS:tp1271
+EESchema Schematic File Version 4
 LIBS:DI-Lambda-UNO-panel-Photodiode-cache
 EELAYER 26 0
 EELAYER END
@@ -103,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conn_01x06 J1
+L DI-Lambda-UNO-panel-Photodiode-rescue:Conn_01x06-RESCUE-DI-Lambda-UNO-panel-Photodiode J1
 U 1 1 59A86E68
 P 6750 2250
 F 0 "J1" V 6716 1909 50  0000 R CNN
@@ -114,34 +26,34 @@ F 3 "" H 6750 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6550 2450 6550 2900
+	6550 2450 6550 2600
 Wire Wire Line
 	6650 2450 6650 2900
 Wire Wire Line
 	6750 2450 6750 2900
 Wire Wire Line
-	6850 2450 6850 2900
+	6850 2450 6850 2600
 NoConn ~ 6950 2450
 NoConn ~ 7050 2450
 $Comp
-L GND #PWR01
+L power1:GND #PWR01
 U 1 1 59A86FF7
-P 6550 2900
-F 0 "#PWR01" H 6550 2650 50  0001 C CNN
-F 1 "GND" H 6555 2723 50  0000 C CNN
-F 2 "" H 6550 2900 50  0001 C CNN
-F 3 "" H 6550 2900 50  0001 C CNN
-	1    6550 2900
+P 6850 2900
+F 0 "#PWR01" H 6850 2650 50  0001 C CNN
+F 1 "GND" H 6855 2723 50  0000 C CNN
+F 2 "" H 6850 2900 50  0001 C CNN
+F 3 "" H 6850 2900 50  0001 C CNN
+	1    6850 2900
 	1    0    0    -1  
 $EndComp
 Text Label 6650 2900 1    60   ~ 0
 SDA
 Text Label 6750 2900 1    60   ~ 0
 SCL
-Text Label 6850 2900 1    60   ~ 0
+Text Label 6550 2900 1    60   ~ 0
 VCC
 $Comp
-L C_Small C1
+L device:C_Small C1
 U 1 1 59A87334
 P 6200 4800
 F 0 "C1" H 6292 4847 50  0000 L CNN
@@ -168,7 +80,7 @@ Wire Wire Line
 Wire Wire Line
 	6200 4900 6200 5150
 $Comp
-L GND #PWR03
+L power1:GND #PWR03
 U 1 1 59A875F2
 P 6200 5150
 F 0 "#PWR03" H 6200 4900 50  0001 C CNN
@@ -181,7 +93,7 @@ $EndComp
 Text Label 6200 4500 3    60   ~ 0
 VCC
 $Comp
-L MCP3421A0T-E/CH U2
+L DI-Lambda-UNO-panel-Photodiode-rescue:MCP3421A0T-E_CH-RESCUE-DI-Lambda-UNO-panel-Photodiode U2
 U 1 1 5A1B0D56
 P 7500 3700
 F 0 "U2" H 7050 3350 50  0000 C CNN
@@ -192,7 +104,7 @@ F 3 "" H 7500 3700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D_Photo D1
+L device:D_Photo D1
 U 1 1 5A1B324B
 P 4300 3900
 F 0 "D1" V 4203 4061 50  0000 L CNN
@@ -214,30 +126,19 @@ F 15 "-" H 4300 3900 60  0001 C CNN "Used"
 	1    4300 3900
 	0    -1   1    0   
 $EndComp
-$Comp
-L TP1271-RESCUE-DI-Lambda-UNO-panel-Photodiode U1
-U 1 1 5A1B3CB0
-P 4950 3600
-F 0 "U1" H 5400 3300 60  0000 L CNN
-F 1 "TP1271" H 5350 3200 60  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3750 2500 60  0001 C CNN
-F 3 "" H 3750 2500 60  0001 C CNN
-	1    4950 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4650 3700 4550 3700
 Wire Wire Line
 	4550 3700 4550 4100
 Wire Wire Line
-	4300 4100 5100 4100
+	4300 4100 4550 4100
 Wire Wire Line
 	5100 4100 5100 4050
 Wire Wire Line
-	4300 4000 4300 4250
+	4300 4000 4300 4100
 Connection ~ 4550 4100
 Wire Wire Line
-	4300 2450 4300 3700
+	4300 2450 4300 2800
 Wire Wire Line
 	4300 3500 4650 3500
 Wire Wire Line
@@ -245,9 +146,9 @@ Wire Wire Line
 Text Label 5100 3100 0    60   ~ 0
 VCC
 Wire Wire Line
-	5700 3600 7000 3600
+	5700 3600 5850 3600
 $Comp
-L R_Small R1
+L device:R_Small R1
 U 1 1 5A1B424F
 P 5050 2800
 F 0 "R1" V 4851 2800 50  0000 C CNN
@@ -270,7 +171,7 @@ F 15 "-" H 5050 2800 60  0001 C CNN "Used"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5850 2450 5850 3600
+	5850 2450 5850 2800
 Wire Wire Line
 	5850 2800 5150 2800
 Connection ~ 5850 3600
@@ -278,7 +179,7 @@ Wire Wire Line
 	4950 2800 4300 2800
 Connection ~ 4300 3500
 $Comp
-L C_Small C2
+L device:C_Small C2
 U 1 1 5A1B47F0
 P 5050 2450
 F 0 "C2" V 4818 2450 50  0000 C CNN
@@ -307,7 +208,7 @@ Wire Wire Line
 	4950 2450 4300 2450
 Connection ~ 4300 2800
 $Comp
-L GND #PWR02
+L power1:GND #PWR02
 U 1 1 5A1B4D44
 P 4300 4250
 F 0 "#PWR02" H 4300 4000 50  0001 C CNN
@@ -325,9 +226,9 @@ Wire Wire Line
 Wire Wire Line
 	6700 4300 7500 4300
 Wire Wire Line
-	7500 4100 7500 4400
+	7500 4100 7500 4300
 $Comp
-L GND #PWR04
+L power1:GND #PWR04
 U 1 1 5A1B5078
 P 7500 4400
 F 0 "#PWR04" H 7500 4150 50  0001 C CNN
@@ -349,7 +250,7 @@ Wire Wire Line
 Text Label 8400 3700 2    60   ~ 0
 SDA
 $Comp
-L C_Small C3
+L device:C_Small C3
 U 1 1 5A1B5D5F
 P 5550 4750
 F 0 "C3" H 5642 4797 50  0000 L CNN
@@ -376,7 +277,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 4850 5550 5100
 $Comp
-L GND #PWR05
+L power1:GND #PWR05
 U 1 1 5A1B5D67
 P 5550 5100
 F 0 "#PWR05" H 5550 4850 50  0001 C CNN
@@ -391,7 +292,7 @@ VCC
 Text Label 8400 3600 2    60   ~ 0
 SCL
 $Comp
-L PWR_FLAG #FLG01
+L power1:PWR_FLAG #FLG01
 U 1 1 5A1B8ABA
 P 6400 2600
 F 0 "#FLG01" H 6400 2675 50  0001 C CNN
@@ -405,7 +306,7 @@ Wire Wire Line
 	6400 2600 6550 2600
 Connection ~ 6550 2600
 $Comp
-L PWR_FLAG #FLG02
+L power1:PWR_FLAG #FLG02
 U 1 1 5A1B8CD3
 P 6950 2600
 F 0 "#FLG02" H 6950 2675 50  0001 C CNN
@@ -418,4 +319,56 @@ $EndComp
 Wire Wire Line
 	6950 2600 6850 2600
 Connection ~ 6850 2600
+Wire Wire Line
+	4550 4100 5100 4100
+Wire Wire Line
+	5850 3600 7000 3600
+Wire Wire Line
+	4300 3500 4300 3700
+Wire Wire Line
+	5850 2800 5850 3600
+Wire Wire Line
+	4300 2800 4300 3500
+Wire Wire Line
+	4300 4100 4300 4250
+Wire Wire Line
+	7500 4300 7500 4400
+Wire Wire Line
+	6550 2600 6550 2900
+Wire Wire Line
+	6850 2600 6850 2900
+$Comp
+L tp1271:TP1271 U1
+U 1 1 5A96B707
+P 4950 3600
+F 0 "U1" H 5744 3655 60  0000 L CNN
+F 1 "TP1271" H 5744 3545 60  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 3750 2500 60  0001 C CNN
+F 3 "" H 3750 2500 60  0001 C CNN
+F 4 "-" H 4950 3600 50  0001 C CNN "Characteristics"
+F 5 "-" H 4950 3600 50  0001 C CNN "MFR"
+F 6 "-" H 4950 3600 50  0001 C CNN "MPN"
+F 7 "-" H 4950 3600 50  0001 C CNN "MFR2"
+F 8 "-" H 4950 3600 50  0001 C CNN "MPN2"
+F 9 "-" H 4950 3600 50  0001 C CNN "Package"
+F 10 "-" H 4950 3600 50  0001 C CNN "SRC"
+F 11 "-" H 4950 3600 50  0001 C CNN "SCRN"
+F 12 "-" H 4950 3600 50  0001 C CNN "SRC2"
+F 13 "-" H 4950 3600 50  0001 C CNN "SRC2N"
+F 14 "-" H 4950 3600 50  0001 C CNN "Note"
+F 15 "-" H 4950 3600 50  0001 C CNN "Used"
+	1    4950 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole MK1
+U 1 1 5A96BC6D
+P 6000 5650
+F 0 "MK1" H 6100 5697 50  0000 L CNN
+F 1 "Mounting_Hole" H 6100 5604 50  0000 L CNN
+F 2 "DI-Lambda-module-tabs:Tab_SENSOR" H 6000 5650 50  0001 C CNN
+F 3 "" H 6000 5650 50  0001 C CNN
+	1    6000 5650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

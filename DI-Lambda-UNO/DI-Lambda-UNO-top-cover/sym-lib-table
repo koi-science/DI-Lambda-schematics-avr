@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DI-Lambda-UNO-top-rescue)(type Legacy)(uri ${KIPRJMOD}/DI-Lambda-UNO-top-rescue.lib)(options "")(descr ""))
+  (lib (name LCD)(type Legacy)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/LCD.lib)(options "")(descr ""))
+)
