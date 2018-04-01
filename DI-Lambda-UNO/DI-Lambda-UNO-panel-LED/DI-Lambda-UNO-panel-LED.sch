@@ -155,14 +155,7 @@ Wire Wire Line
 	6650 5200 7200 5200
 Connection ~ 7200 5200
 Wire Wire Line
-	7200 4450 7200 4200
-Wire Wire Line
-	7600 4850 7750 4850
-Wire Wire Line
-	7750 4850 7750 5100
-Wire Wire Line
-	7750 5100 7200 5100
-Connection ~ 7200 5100
+	7200 4450 7200 4300
 Wire Wire Line
 	7600 4750 8000 4750
 Wire Wire Line
@@ -213,7 +206,7 @@ Text Label 6200 4450 1    60   ~ 0
 VCC
 Text Notes 4050 5200 0    60   ~ 0
 Either THT or SMD 0603 LED
-Text Notes 7850 5000 0    60   ~ 0
+Text Notes 7425 5450 0    60   ~ 0
 Flash to store LED info\n(optional)
 Wire Wire Line
 	5100 4750 5100 5000
@@ -223,10 +216,6 @@ Wire Wire Line
 	6650 4850 6650 5200
 Wire Wire Line
 	6650 4750 6650 4850
-Wire Wire Line
-	7200 5200 7200 5100
-Wire Wire Line
-	7200 5100 7200 5050
 $Comp
 L Mechanical:Mounting_Hole MK1
 U 1 1 5A9689DB
@@ -238,4 +227,68 @@ F 3 "" H 6150 3550 50  0001 C CNN
 	1    6150 3550
 	1    0    0    -1  
 $EndComp
+$Comp
+L device:R_Small R2
+U 1 1 5ABCBD05
+P 8325 4625
+F 0 "R2" H 8384 4672 50  0000 L CNN
+F 1 "4.7K" H 8384 4579 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8325 4625 50  0001 C CNN
+F 3 "" H 8325 4625 50  0001 C CNN
+F 4 "-" H 8325 4625 50  0001 C CNN "Characteristics"
+F 5 "-" H 8325 4625 50  0001 C CNN "MFR"
+F 6 "-" H 8325 4625 50  0001 C CNN "MPN"
+F 7 "-" H 8325 4625 50  0001 C CNN "MFR2"
+F 8 "-" H 8325 4625 50  0001 C CNN "MPN2"
+F 9 "-" H 8325 4625 50  0001 C CNN "Package"
+F 10 "-" H 8325 4625 50  0001 C CNN "SRC"
+F 11 "-" H 8325 4625 50  0001 C CNN "SCRN"
+F 12 "-" H 8325 4625 50  0001 C CNN "SRC2"
+F 13 "-" H 8325 4625 50  0001 C CNN "SRC2N"
+F 14 "-" H 8325 4625 50  0001 C CNN "Note"
+F 15 "-" H 8325 4625 50  0001 C CNN "Used"
+	1    8325 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8325 4725 8325 4850
+Wire Wire Line
+	8325 4525 8325 4300
+Wire Wire Line
+	8325 4300 7200 4300
+Connection ~ 7200 4300
+Wire Wire Line
+	7200 4300 7200 4200
+Wire Wire Line
+	7600 4850 8325 4850
+Wire Wire Line
+	7200 5050 7200 5200
+Connection ~ 8325 4850
+$Comp
+L conn:TEST_1P W1
+U 1 1 5ABCD69E
+P 8800 4775
+F 0 "W1" H 8861 4896 50  0000 L CNN
+F 1 "WRITE" H 8861 4803 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 9000 4775 50  0001 C CNN
+F 3 "" H 9000 4775 50  0000 C CNN
+F 4 "-" H 8800 4775 50  0001 C CNN "Characteristics"
+F 5 "-" H 8800 4775 50  0001 C CNN "MFR"
+F 6 "-" H 8800 4775 50  0001 C CNN "MPN"
+F 7 "-" H 8800 4775 50  0001 C CNN "MFR2"
+F 8 "-" H 8800 4775 50  0001 C CNN "MPN2"
+F 9 "-" H 8800 4775 50  0001 C CNN "Package"
+F 10 "-" H 8800 4775 50  0001 C CNN "SRC"
+F 11 "-" H 8800 4775 50  0001 C CNN "SCRN"
+F 12 "-" H 8800 4775 50  0001 C CNN "SRC2"
+F 13 "-" H 8800 4775 50  0001 C CNN "SRC2N"
+F 14 "-" H 8800 4775 50  0001 C CNN "Note"
+F 15 "-" H 8800 4775 50  0001 C CNN "Used"
+	1    8800 4775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 4775 8800 4850
+Wire Wire Line
+	8325 4850 8800 4850
 $EndSCHEMATC

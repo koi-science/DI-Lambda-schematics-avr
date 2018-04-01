@@ -1,9 +1,6 @@
 (fp_lib_table
-  (lib (name Female_socket_pitch254_smt_through-board)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/Female_socket_pitch254_smt_through-board.pretty)(options "")(descr ""))
-  (lib (name logo)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/DI-Lambda-DITOS/logo.pretty)(options "")(descr ""))
-  (lib (name svg2mod)(type KiCad)(uri /home/xl0/work/kicad/svg2mod)(options "")(descr ""))
-  (lib (name Cuvette-holder)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/Cuvette-holder.pretty)(options "")(descr ""))
-  (lib (name Board_grooves)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/Board_grooves.pretty)(options "")(descr ""))
-  (lib (name DI-Lambda-module-tabs)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/DI-Lambda-module-tabs.pretty)(options "")(descr ""))
-  (lib (name LCD)(type KiCad)(uri /home/xl0/work/koi/hardware/spectrophotomerer/DI-Lambda-schamatics-avr/libs/LCD.pretty)(options "")(descr ""))
+  (lib (name Female_socket_pitch254_smt_through-board)(type KiCad)(uri ${KIPRJMOD}/../../libs/Female_socket_pitch254_smt_through-board.pretty)(options "")(descr ""))
+  (lib (name LCD)(type KiCad)(uri ${KIPRJMOD}/../../libs/LCD.pretty)(options "")(descr ""))
+  (lib (name Mounting-holes)(type KiCad)(uri ${KIPRJMOD}/../../libs/Mounting-holes.pretty)(options "")(descr ""))
+  (lib (name DI-Lambda-module-tabs)(type KiCad)(uri ${KIPRJMOD}/../../libs/DI-Lambda-module-tabs.pretty)(options "")(descr ""))
 )
