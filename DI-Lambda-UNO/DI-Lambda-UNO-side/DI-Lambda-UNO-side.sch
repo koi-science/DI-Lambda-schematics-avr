@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x04 P2
+L Connector_Generic:Conn_01x04 P304
 U 1 1 5A72F2C0
 P 3850 4900
-F 0 "P2" V 3721 5131 50  0000 L CNN
+F 0 "P304" V 3721 5131 50  0000 L CNN
 F 1 "CONN_01X04" V 3814 5131 50  0000 L CNN
 F 2 "Board_grooves:Tab_10mm_4pads_vias_3mm" H 3850 4900 50  0001 C CNN
 F 3 "" H 3850 4900 50  0000 C CNN
@@ -37,53 +37,11 @@ F 15 "-" H 3850 4900 50  0001 C CNN "Used"
 	1    3850 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3650 4700 3650 4550
-Wire Wire Line
-	3650 4550 3750 4550
-Wire Wire Line
-	3950 4700 3950 4550
-Connection ~ 3950 4550
-Wire Wire Line
-	3950 4550 4050 4550
-Wire Wire Line
-	3850 4700 3850 4550
-Connection ~ 3850 4550
-Wire Wire Line
-	3850 4550 3950 4550
-Wire Wire Line
-	3750 4700 3750 4550
-Connection ~ 3750 4550
-Wire Wire Line
-	3750 4550 3850 4550
 $Comp
-L power:GND #PWR02
-U 1 1 5A72F8EC
-P 4050 4550
-F 0 "#PWR02" H 4050 4300 50  0001 C CNN
-F 1 "GND" H 4055 4373 50  0000 C CNN
-F 2 "" H 4050 4550 50  0001 C CNN
-F 3 "" H 4050 4550 50  0001 C CNN
-F 4 "-" H 4050 4550 50  0001 C CNN "Characteristics"
-F 5 "-" H 4050 4550 50  0001 C CNN "MFR"
-F 6 "-" H 4050 4550 50  0001 C CNN "MPN"
-F 7 "-" H 4050 4550 50  0001 C CNN "MFR2"
-F 8 "-" H 4050 4550 50  0001 C CNN "MPN2"
-F 9 "-" H 4050 4550 50  0001 C CNN "Package"
-F 10 "-" H 4050 4550 50  0001 C CNN "SRC"
-F 11 "-" H 4050 4550 50  0001 C CNN "SCRN"
-F 12 "-" H 4050 4550 50  0001 C CNN "SRC2"
-F 13 "-" H 4050 4550 50  0001 C CNN "SRC2N"
-F 14 "-" H 4050 4550 50  0001 C CNN "Note"
-F 15 "-" H 4050 4550 50  0001 C CNN "Used"
-	1    4050 4550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x03 P3
+L Connector_Generic:Conn_01x03 P305
 U 1 1 5A72FB91
 P 4850 4900
-F 0 "P3" V 4721 5131 50  0000 L CNN
+F 0 "P305" V 4721 5131 50  0000 L CNN
 F 1 "CONN_01X04" V 4814 5131 50  0000 L CNN
 F 2 "Board_grooves:Tab_10mm_3pads_vias_3mm" H 4850 4900 50  0001 C CNN
 F 3 "" H 4850 4900 50  0000 C CNN
@@ -102,46 +60,11 @@ F 15 "-" H 4850 4900 50  0001 C CNN "Used"
 	1    4850 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4750 4700 4750 4550
-Wire Wire Line
-	4750 4550 4850 4550
-Wire Wire Line
-	4950 4700 4950 4550
-Connection ~ 4950 4550
-Wire Wire Line
-	4850 4700 4850 4550
-Connection ~ 4850 4550
-Wire Wire Line
-	4850 4550 4950 4550
 $Comp
-L power:GND #PWR03
-U 1 1 5A72FBA3
-P 5150 4550
-F 0 "#PWR03" H 5150 4300 50  0001 C CNN
-F 1 "GND" H 5155 4373 50  0000 C CNN
-F 2 "" H 5150 4550 50  0001 C CNN
-F 3 "" H 5150 4550 50  0001 C CNN
-F 4 "-" H 5150 4550 50  0001 C CNN "Characteristics"
-F 5 "-" H 5150 4550 50  0001 C CNN "MFR"
-F 6 "-" H 5150 4550 50  0001 C CNN "MPN"
-F 7 "-" H 5150 4550 50  0001 C CNN "MFR2"
-F 8 "-" H 5150 4550 50  0001 C CNN "MPN2"
-F 9 "-" H 5150 4550 50  0001 C CNN "Package"
-F 10 "-" H 5150 4550 50  0001 C CNN "SRC"
-F 11 "-" H 5150 4550 50  0001 C CNN "SCRN"
-F 12 "-" H 5150 4550 50  0001 C CNN "SRC2"
-F 13 "-" H 5150 4550 50  0001 C CNN "SRC2N"
-F 14 "-" H 5150 4550 50  0001 C CNN "Note"
-F 15 "-" H 5150 4550 50  0001 C CNN "Used"
-	1    5150 4550
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x04 P4
+L Connector_Generic:Conn_01x04 P306
 U 1 1 5A72FE2B
 P 6000 4900
-F 0 "P4" V 5871 5131 50  0000 L CNN
+F 0 "P306" V 5871 5131 50  0000 L CNN
 F 1 "CONN_01X04" V 5964 5131 50  0000 L CNN
 F 2 "Board_grooves:Tab_10mm_4pads_vias_3mm" H 6000 4900 50  0001 C CNN
 F 3 "" H 6000 4900 50  0000 C CNN
@@ -160,55 +83,11 @@ F 15 "-" H 6000 4900 50  0001 C CNN "Used"
 	1    6000 4900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5800 4700 5800 4550
-Wire Wire Line
-	5800 4550 5900 4550
-Wire Wire Line
-	6100 4700 6100 4550
-Connection ~ 6100 4550
-Wire Wire Line
-	6100 4550 6200 4550
-Wire Wire Line
-	6000 4550 6100 4550
-Wire Wire Line
-	5900 4700 5900 4550
-Connection ~ 5900 4550
-Wire Wire Line
-	5900 4550 6000 4550
 $Comp
-L power:GND #PWR04
-U 1 1 5A72FE3D
-P 6200 4550
-F 0 "#PWR04" H 6200 4300 50  0001 C CNN
-F 1 "GND" H 6205 4373 50  0000 C CNN
-F 2 "" H 6200 4550 50  0001 C CNN
-F 3 "" H 6200 4550 50  0001 C CNN
-F 4 "-" H 6200 4550 50  0001 C CNN "Characteristics"
-F 5 "-" H 6200 4550 50  0001 C CNN "MFR"
-F 6 "-" H 6200 4550 50  0001 C CNN "MPN"
-F 7 "-" H 6200 4550 50  0001 C CNN "MFR2"
-F 8 "-" H 6200 4550 50  0001 C CNN "MPN2"
-F 9 "-" H 6200 4550 50  0001 C CNN "Package"
-F 10 "-" H 6200 4550 50  0001 C CNN "SRC"
-F 11 "-" H 6200 4550 50  0001 C CNN "SCRN"
-F 12 "-" H 6200 4550 50  0001 C CNN "SRC2"
-F 13 "-" H 6200 4550 50  0001 C CNN "SRC2N"
-F 14 "-" H 6200 4550 50  0001 C CNN "Note"
-F 15 "-" H 6200 4550 50  0001 C CNN "Used"
-	1    6200 4550
-	0    -1   -1   0   
-$EndComp
-Connection ~ 6000 4550
-Wire Wire Line
-	6000 4700 6000 4550
-Wire Wire Line
-	4950 4550 5150 4550
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even P1
+L Connector_Generic:Conn_02x02_Odd_Even P303
 U 1 1 5A2D1373
 P 4350 3900
-F 0 "P1" H 4350 4171 50  0000 C CNN
+F 0 "P303" H 4350 4171 50  0000 C CNN
 F 1 "CONN_02X02" H 4350 4078 50  0000 C CNN
 F 2 "Female_socket_pitch254_smt_through-board:Female_socket_2.54_2x2p_horizontal_smt" H 4350 2700 50  0001 C CNN
 F 3 "" H 4350 2700 50  0000 C CNN
@@ -228,10 +107,10 @@ F 15 "-" H 4350 3900 50  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even P5
+L Connector_Generic:Conn_02x02_Odd_Even P301
 U 1 1 5A9647CE
 P 4350 3400
-F 0 "P5" H 4350 3671 50  0000 C CNN
+F 0 "P301" H 4350 3671 50  0000 C CNN
 F 1 "CONN_02X02" H 4350 3578 50  0000 C CNN
 F 2 "Female_socket_pitch254_smt_through-board:Female_socket_2.54_2x2p_horizontal_smt" H 4350 2200 50  0001 C CNN
 F 3 "" H 4350 2200 50  0000 C CNN
@@ -251,10 +130,10 @@ F 15 "-" H 4350 3400 50  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x02_Odd_Even P6
+L Connector_Generic:Conn_02x02_Odd_Even P302
 U 1 1 5A9648C1
 P 5600 3400
-F 0 "P6" H 5600 3671 50  0000 C CNN
+F 0 "P302" H 5600 3671 50  0000 C CNN
 F 1 "CONN_02X02" H 5600 3578 50  0000 C CNN
 F 2 "Female_socket_pitch254_smt_through-board:Female_socket_2.54_2x2p_horizontal_smt" H 5600 2200 50  0001 C CNN
 F 3 "" H 5600 2200 50  0000 C CNN
@@ -274,10 +153,10 @@ F 15 "-" H 5600 3400 50  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK1
+L Mechanical:Mounting_Hole MK301
 U 1 1 5A964AD8
 P 3700 2800
-F 0 "MK1" H 3800 2847 50  0000 L CNN
+F 0 "MK301" H 3800 2847 50  0000 L CNN
 F 1 "Mounting_Hole" H 3800 2754 50  0000 L CNN
 F 2 "Board_grooves:Tab_7mm_1.5mm" H 3700 2800 50  0001 C CNN
 F 3 "" H 3700 2800 50  0001 C CNN
@@ -297,10 +176,10 @@ F 15 "-" H 3700 2800 50  0001 C CNN "Used"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK2
+L Mechanical:Mounting_Hole MK302
 U 1 1 5A964B5A
 P 4300 2800
-F 0 "MK2" H 4400 2847 50  0000 L CNN
+F 0 "MK302" H 4400 2847 50  0000 L CNN
 F 1 "Mounting_Hole" H 4400 2754 50  0000 L CNN
 F 2 "Board_grooves:Tab_7mm_1.5mm" H 4300 2800 50  0001 C CNN
 F 3 "" H 4300 2800 50  0001 C CNN
@@ -308,10 +187,10 @@ F 3 "" H 4300 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:Mounting_Hole MK3
+L Mechanical:Mounting_Hole MK303
 U 1 1 5A964B8E
 P 5500 2800
-F 0 "MK3" H 5600 2847 50  0000 L CNN
+F 0 "MK303" H 5600 2847 50  0000 L CNN
 F 1 "Mounting_Hole" H 5600 2754 50  0000 L CNN
 F 2 "Board_grooves:Tab_7mm_1.5mm" H 5500 2800 50  0001 C CNN
 F 3 "" H 5500 2800 50  0001 C CNN
@@ -342,10 +221,10 @@ Wire Wire Line
 	5950 3500 5950 3400
 Connection ~ 5950 3500
 $Comp
-L power:GND #PWR01
+L power:GND #PWR0301
 U 1 1 5A965E8A
 P 5300 3800
-F 0 "#PWR01" H 5300 3550 50  0001 C CNN
+F 0 "#PWR0301" H 5300 3550 50  0001 C CNN
 F 1 "GND" H 5305 3623 50  0000 C CNN
 F 2 "" H 5300 3800 50  0001 C CNN
 F 3 "" H 5300 3800 50  0001 C CNN
@@ -397,14 +276,25 @@ B+
 Text Label 4900 3600 0    50   ~ 0
 B-
 $Comp
-L Mechanical:Mounting_Hole MK4
+L Mechanical:Mounting_Hole MK304
 U 1 1 5AC612F5
 P 5075 4125
-F 0 "MK4" H 5175 4172 50  0000 L CNN
+F 0 "MK304" H 5175 4172 50  0000 L CNN
 F 1 "Mounting_Hole" H 5175 4079 50  0000 L CNN
 F 2 "Cuvette-holder:Cuvette_holder_side_hole" H 5075 4125 50  0001 C CNN
 F 3 "" H 5075 4125 50  0001 C CNN
 	1    5075 4125
 	1    0    0    -1  
 $EndComp
+NoConn ~ 3650 4700
+NoConn ~ 3750 4700
+NoConn ~ 3850 4700
+NoConn ~ 3950 4700
+NoConn ~ 4750 4700
+NoConn ~ 4850 4700
+NoConn ~ 4950 4700
+NoConn ~ 5800 4700
+NoConn ~ 5900 4700
+NoConn ~ 6000 4700
+NoConn ~ 6100 4700
 $EndSCHEMATC
